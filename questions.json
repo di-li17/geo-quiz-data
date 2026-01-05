@@ -8,7 +8,7 @@
     type: "single",
     content: "1. 【读图题】下图是老师展示的一组图片，图中不属于人类对太空探索活动的是（ ）",
     // ⚠️ 请把你截的那张4个小图的图片，重命名为 q5.png，放入 images 文件夹
-    image: "/pkg_quiz/images/q1.png", 
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q1.png", 
     options: [
       { key: "A", content: "① 第一颗人造地球卫星" },
       { key: "B", content: "② 人类首次进入太空" },
@@ -49,7 +49,7 @@
     type: "single",
     content: "3. 【读表题】我国太空探索用30年跨越了发达国家半个世纪的发展历程（见下图），这主要得益于（ ）",
     // ⚠️ 请把你截的时间轴表格，重命名为 q7.png，放入 images 文件夹
-    image: "/pkg_quiz/images/q2.png", 
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q2.png", 
     options: [
       { key: "A", content: "科学技术的进步" },
       { key: "B", content: "生活水平的提高" },
@@ -89,7 +89,7 @@
     type: "single",
     // 题目背景较长，我把它整合在题干里了
     content: "12. 【热点信息题】2025年3月，神舟十九号航天员圆满完成出舱活动。读太阳系八大行星示意图，“天宫”空间站运行的轨道位于（ ）",
-    image: "/pkg_quiz/images/q3.png", // ⚠️ 确保你的图片叫 q3.jpg (或 .png)
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q3.png", // ⚠️ 确保你的图片叫 q3.jpg (或 .png)
     options: [
       { key: "A", content: "太阳与水星之间" },
       { key: "B", content: "金星与火星之间" },
@@ -110,7 +110,7 @@
     chapterId: 10102, // ⚠️注意：这是第二节的ID，要去第二节刷！
     type: "single",
     content: "1. (如图) 从“天圆地方”到“太阳和月球的形状”，再到环球航行、地球卫星影像，人类对地球形状的认识，依次经历了（ ）",
-    image: "/pkg_quiz/images/q4.png", 
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q4.png", 
     options: [
       { key: "A", content: "实地考察→直觉推断→观察证实" },
       { key: "B", content: "直觉推断→实地考察→观察证实" },
@@ -128,7 +128,7 @@
     chapterId: 10102,
     type: "single",
     content: "2. 图中“最大周长”是指（ ）",
-    image: "/pkg_quiz/images/q4.png", 
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q4.png", 
     options: [
       { key: "A", content: "赤道" },
       { key: "B", content: "回归线" },
@@ -146,7 +146,7 @@
     chapterId: 10102,
     type: "single",
     content: "3. 有关地球半径的描述中，用了“平均”一词是因为（ ）",
-    image: "/pkg_quiz/images/q4.png", 
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q4.png", 
     options: [
       { key: "A", content: "地球半径是不断变化的" },
       { key: "B", content: "“平均”一词就是画蛇添足" },
@@ -167,7 +167,7 @@
     chapterId: 10102, // 属于第二节
     type: "single",
     content: "4. (如图) 下列制作地球仪的步骤排序合理的是（ ）\n①将泡沫球固定在支架上\n②用铁丝贯穿泡沫球\n③确定两个对称点作为极点\n④绘出若干条经线和纬线",
-    image: "/pkg_quiz/images/q5.png", // 这里的后缀如果是jpg请自行修改
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q5.png", // 这里的后缀如果是jpg请自行修改
     options: [
       { key: "A", content: "①②③④" },
       { key: "B", content: "②①③④" },
@@ -185,7 +185,7 @@
     chapterId: 10102,
     type: "single",
     content: "5. (如图) 铁丝弯成的角①的度数应为（ ）",
-    image: "/pkg_quiz/images/q5.png", 
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q5.png", 
     options: [
       { key: "A", content: "66.5°" },
       { key: "B", content: "45°" },
@@ -203,7 +203,7 @@
     chapterId: 10102,
     type: "single",
     content: "6. (如图) 图中作品需要改进的地方是（ ）",
-    image: "/pkg_quiz/images/q5.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q5.png",
     options: [
       { key: "A", content: "固定后铁丝应竖直" },
       { key: "B", content: "画出全部的经线和纬线" },
@@ -221,7 +221,7 @@
     chapterId: 10102,
     type: "single",
     content: "7. (如图) 从该同学制作的地球仪中，我们可以获得的信息是（ ）",
-    image: "/pkg_quiz/images/q5.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q5.png",
     options: [
       { key: "A", content: "沿赤道环地球一周需要走4万千米" },
       { key: "B", content: "地球是一个球体，地球仪上有连接南北两极的经线" },
@@ -242,7 +242,7 @@
     chapterId: 10102, // 属于第二节
     type: "single",
     content: "9. (如图) 为了更好地认识经线网，小点同学在地球模型上截取了信息。图中甲地所在经线位于（ ）",
-    image: "/pkg_quiz/images/q6.png", // 确保文件名对应
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q6.png", // 确保文件名对应
     options: [
       { key: "A", content: "本初子午线以东，为东经" },
       { key: "B", content: "本初子午线以西，为西经" },
@@ -260,7 +260,7 @@
     chapterId: 10102,
     type: "single",
     content: "10. (如图) 图中乙地地处（ ）",
-    image: "/pkg_quiz/images/q6.png", // 继续用这张图
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q6.png", // 继续用这张图
     options: [
       { key: "A", content: "北半球、东半球" },
       { key: "B", content: "南半球、东半球" },
@@ -278,7 +278,7 @@
     chapterId: 10102,
     type: "single",
     content: "11. (如图) 关于经纬线的说法，正确的是（ ）",
-    image: "/pkg_quiz/images/q6.png", // 继续用这张图
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q6.png", // 继续用这张图
     options: [
       { key: "A", content: "经线都是一个圆圈" },
       { key: "B", content: "纬线长度都相等" },
@@ -299,7 +299,7 @@
     chapterId: 10102, // 属于第二节
     type: "single",
     content: "12. (如图) 关于图中棋子位置的描述，正确的是（ ）",
-    image: "/pkg_quiz/images/q7.png", 
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q7.png", 
     options: [
       { key: "A", content: "甲、乙均位于中纬度地区" },
       { key: "B", content: "丙位于高纬度地区" },
@@ -317,7 +317,7 @@
     chapterId: 10102,
     type: "single",
     content: "13. (如图) 丙棋子的经纬度坐标大致可表示为（ ）",
-    image: "/pkg_quiz/images/q7.png", // 继续用这张图
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q7.png", // 继续用这张图
     options: [
       { key: "A", content: "(40°N, 100°W)" },
       { key: "B", content: "(40°N, 100°E)" },
@@ -335,7 +335,7 @@
     chapterId: 10102,
     type: "single",
     content: "14. (如图) 甲棋子位于乙棋子的（ ）",
-    image: "/pkg_quiz/images/q7.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q7.png",
     options: [
       { key: "A", content: "东北方向" },
       { key: "B", content: "东南方向" },
@@ -353,7 +353,7 @@
     chapterId: 10102,
     type: "single",
     content: "15. (如图) 在绘制纬线时，四颗棋子所在的纬线长短关系是（ ）",
-    image: "/pkg_quiz/images/q7.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q7.png",
     options: [
       { key: "A", content: "甲＞乙＞丙＞丁" },
       { key: "B", content: "乙＞丙＝甲＞丁" },
@@ -374,7 +374,7 @@
     chapterId: 10102, // 属于第二节
     type: "single",
     content: "3. (如图) 小组成员在地球仪上绘制了经纬网，甲、乙、丙、丁四条特殊纬线标注正确的是（ ）",
-    image: "/pkg_quiz/images/q8.png", 
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q8.png", 
     options: [
       { key: "A", content: "甲—北极圈" },
       { key: "B", content: "乙—赤道" },
@@ -392,7 +392,7 @@
     chapterId: 10102,
     type: "single",
     content: "4. (如图) 小组成员想在经纬网上标注(35°N, 110°E)的大致位置，他们应该标注在（ ）",
-    image: "/pkg_quiz/images/q8.png", 
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q8.png", 
     options: [
       { key: "A", content: "①处" },
       { key: "B", content: "②处" },
@@ -410,7 +410,7 @@
     chapterId: 10102,
     type: "single",
     content: "5. (如图) 小组成员制作完地球仪后，他们可以（ ）",
-    image: "/pkg_quiz/images/q8.png", 
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q8.png", 
     options: [
       { key: "A", content: "认识地球的真实形状" },
       { key: "B", content: "通过测量经纬线的长度，计算地球最大的周长" },
@@ -431,7 +431,7 @@
     chapterId: 10103, // 切换到第三节了
     type: "single",
     content: "9. (如图) 读“新年第一缕阳光”示意图，最早迎来该年第一缕阳光的是（ ）",
-    image: "/pkg_quiz/images/q9.png", 
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q9.png", 
     options: [
       { key: "A", content: "抚远" },
       { key: "B", content: "北京" },
@@ -449,7 +449,7 @@
     chapterId: 10103,
     type: "single",
     content: "10. (如图) 以下与1月1日最接近的节气是（ ）",
-    image: "/pkg_quiz/images/q9.png", // 继续用这张图
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q9.png", // 继续用这张图
     options: [
       { key: "A", content: "春分" },
       { key: "B", content: "夏至" },
@@ -467,7 +467,7 @@
     chapterId: 10103,
     type: "single",
     content: "11. (如图) 1月1日北京的昼夜长短情况为（ ）",
-    image: "/pkg_quiz/images/q9.png", 
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q9.png", 
     options: [
       { key: "A", content: "极昼" },
       { key: "B", content: "昼长夜短" },
@@ -488,7 +488,7 @@
     chapterId: 10103, // 属于第三节
     type: "single",
     content: "12. (如图) 遮阳板收起，室内正午太阳光照面积达一年最大值时（ ）",
-    image: "/pkg_quiz/images/q10.png", 
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q10.png", 
     options: [
       { key: "A", content: "全球昼夜平分" },
       { key: "B", content: "北半球为夏季" },
@@ -506,7 +506,7 @@
     chapterId: 10103,
     type: "single",
     content: "13. (如图) 北京市某中学学生借鉴这一设计，若两地窗户大小形状相同，则应作的调整有（ ）\n①安装高度不变，加长遮阳板\n②安装高度不变，缩短遮阳板\n③遮阳板长度不变，降低安装高度\n④遮阳板长度不变，升高安装高度",
-    image: "/pkg_quiz/images/q10.png", 
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q10.png", 
     options: [
       { key: "A", content: "①③" },
       { key: "B", content: "①④" },
@@ -527,7 +527,7 @@
     chapterId: 10102, // 属于第二节：经纬网应用
     type: "single",
     content: "4. (如图) 图中M点的地理坐标是（ ）",
-    image: "/pkg_quiz/images/q11.png", 
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q11.png", 
     options: [
       { key: "A", content: "25°N, 25°W" },
       { key: "B", content: "25°S, 35°W" },
@@ -545,7 +545,7 @@
     chapterId: 10102,
     type: "single",
     content: "5. (如图) 图中的M点位于（ ）",
-    image: "/pkg_quiz/images/q11.png", // 继续用这张图
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q11.png", // 继续用这张图
     options: [
       { key: "A", content: "北美洲、热带" },
       { key: "B", content: "南美洲、南温带" },
@@ -564,7 +564,7 @@
   {
     id: 101, chapterId: 10101, type: "single",
     content: "1. (如图) 读太阳系示意图，下列行星中距离太阳最近的是（ ）",
-    image: "/pkg_quiz/images/q12.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q12.png",
     options: [
       { key: "A", content: "天王星" },
       { key: "B", content: "土星" },
@@ -578,7 +578,7 @@
   {
     id: 102, chapterId: 10101, type: "single",
     content: "2. (如图) 地球位于（ ）",
-    image: "/pkg_quiz/images/q12.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q12.png",
     options: [
       { key: "A", content: "木星和土星之间" },
       { key: "B", content: "金星和土星之间" },
@@ -592,7 +592,7 @@
   {
     id: 103, chapterId: 10103, type: "single",
     content: "3. 2024年7月3日，神舟十八号乘组完成出舱活动。此时，沈阳的季节是（ ）",
-    image: "/pkg_quiz/images/q12.png", 
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q12.png", 
     options: [
       { key: "A", content: "春季" },
       { key: "B", content: "夏季" },
@@ -608,7 +608,7 @@
   {
     id: 104, chapterId: 10102, type: "single",
     content: "4. (如图) 读世界局部地区图，图中M点的地理坐标是（ ）",
-    image: "/pkg_quiz/images/q13.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q13.png",
     options: [
       { key: "A", content: "25°N, 25°W" },
       { key: "B", content: "25°S, 35°W" },
@@ -622,7 +622,7 @@
   {
     id: 105, chapterId: 10102, type: "single",
     content: "5. (如图) 图中的M点位于（ ）",
-    image: "/pkg_quiz/images/q13.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q13.png",
     options: [
       { key: "A", content: "北美洲、热带" },
       { key: "B", content: "南美洲、南温带" },
@@ -638,7 +638,7 @@
   {
     id: 106, chapterId: 10401, type: "single",
     content: "6. (如图) 下列天气符号代表的天气最适合游览黄山的是（ ）",
-    image: "/pkg_quiz/images/q14_1.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q14_1.png",
     options: [
       { key: "A", content: "图A" },
       { key: "B", content: "图B" },
@@ -654,7 +654,7 @@
   {
     id: 107, chapterId: 10203, type: "single",
     content: "7. (如图) 平平到达黄山景区后，利用手机查找景点信息。若将手机地图放大，则（ ）",
-    image: "/pkg_quiz/images/q14_2.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q14_2.png",
     options: [
       { key: "A", content: "图幅变小" },
       { key: "B", content: "显示内容更简略" },
@@ -668,7 +668,7 @@
   {
     id: 108, chapterId: 10203, type: "single",
     content: "8. (如图) 平平手机导航中使用的地图属于（ ）",
-    image: "/pkg_quiz/images/q14_2.png", 
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q14_2.png", 
     options: [
       { key: "A", content: "地形图" },
       { key: "B", content: "电子地图" },
@@ -684,7 +684,7 @@
   {
     id: 109, chapterId: 10101, type: "single",
     content: "9. 在“天宫”空间站，航天员看到的地球形状是（ ）",
-    image: "/pkg_quiz/images/q15.png", 
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q15.png", 
     options: [
       { key: "A", content: "球体" },
       { key: "B", content: "圆" },
@@ -698,7 +698,7 @@
   {
     id: 110, chapterId: 10103, type: "single",
     content: "10. (如图) 地球公转到甲处时，太阳直射点的纬度位置及节气名称是（ ）",
-    image: "/pkg_quiz/images/q15.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q15.png",
     options: [
       { key: "A", content: "赤道、春分" },
       { key: "B", content: "南回归线、夏至" },
@@ -712,7 +712,7 @@
   {
     id: 111, chapterId: 10103, type: "single",
     content: "11. (如图) 立夏节气（5月6日），地球位于公转轨道的（ ）",
-    image: "/pkg_quiz/images/q15.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q15.png",
     options: [
       { key: "A", content: "甲乙之间" },
       { key: "B", content: "乙丙之间" },
@@ -728,7 +728,7 @@
   {
     id: 112, chapterId: 10103, type: "single",
     content: "12. (如图) 下列选项中，是南极上空地球自转俯视图的是（ ）",
-    image: "/pkg_quiz/images/q16.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q16.png",
     options: [
       { key: "A", content: "图A" },
       { key: "B", content: "图B" },
@@ -744,7 +744,7 @@
   {
     id: 113, chapterId: 10103, type: "single",
     content: "13. (如图) 读左图，正好处于日出的是（ ）",
-    image: "/pkg_quiz/images/q17.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q17.png",
     options: [
       { key: "A", content: "A点" },
       { key: "B", content: "B点" },
@@ -760,7 +760,7 @@
   {
     id: 114, chapterId: 10501, type: "single",
     content: "14. (如图) 几内亚位于撒哈拉以南非洲，该国人种主要是（ ）",
-    image: "/pkg_quiz/images/q18.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q18.png",
     options: [
       { key: "A", content: "以黑种人为主" },
       { key: "B", content: "以白种人为主" },
@@ -774,7 +774,7 @@
   {
     id: 115, chapterId: 10601, type: "single",
     content: "15. (如图) 该国经济落后，以下最适合几内亚经济发展的措施是（ ）",
-    image: "/pkg_quiz/images/q18.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q18.png",
     options: [
       { key: "A", content: "大量出口粮食" },
       { key: "B", content: "大量出口工业制成品" },
@@ -793,7 +793,7 @@
   {
     id: 201, chapterId: 10101, type: "single",
     content: "1. (如图) 图中代表地球的是（ ）",
-    image: "/pkg_quiz/images/q19.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q19.png",
     options: [
       { key: "A", content: "①" },
       { key: "B", content: "②" },
@@ -807,7 +807,7 @@
   {
     id: 202, chapterId: 10101, type: "single",
     content: "2. 地球是迄今人类唯一的家园，是因为地球（ ）\n①距离太阳适中，有适合生命存在的温度\n②自身发光发热\n③自身体积质量不大不小，有适合呼吸的大气\n④有液态水的存在\n⑤有月球的环绕",
-    image: "/pkg_quiz/images/q19.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q19.png",
     options: [
       { key: "A", content: "①②③" },
       { key: "B", content: "①③④" },
@@ -823,7 +823,7 @@
   {
     id: 203, chapterId: 10303, type: "single",
     content: "3. (如图) 2024年1月1日日本能登半岛发生地震。本次地震震中的经纬度位置是（ ）",
-    image: "/pkg_quiz/images/q20.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q20.png",
     options: [
       { key: "A", content: "37.5°S, 137.2°E" },
       { key: "B", content: "37.5°S, 137.2°W" },
@@ -837,7 +837,7 @@
   {
     id: 204, chapterId: 10303, type: "single",
     content: "4. (如图) 日本火山地震频繁，是因为日本位于（ ）",
-    image: "/pkg_quiz/images/q20.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q20.png",
     options: [
       { key: "A", content: "亚欧板块和印度洋板块交界处" },
       { key: "B", content: "印度洋板块和非洲板块交界处" },
@@ -853,7 +853,7 @@
   {
     id: 205, chapterId: 10302, type: "single",
     content: "5. (如图) 大陆向海洋深处延伸，依次出现的海底地形为（ ）",
-    image: "/pkg_quiz/images/q21.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q21.png",
     options: [
       { key: "A", content: "大陆架—洋盆—大陆坡" },
       { key: "B", content: "大陆架—大陆坡—洋盆" },
@@ -867,7 +867,7 @@
   {
     id: 206, chapterId: 10302, type: "single",
     content: "6. (如图) 海洋的最深处为（ ）",
-    image: "/pkg_quiz/images/q21.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q21.png",
     options: [
       { key: "A", content: "大陆坡" },
       { key: "B", content: "洋盆" },
@@ -883,7 +883,7 @@
   {
     id: 207, chapterId: 10301, type: "single",
     content: "7. (如图) 世界上的陆地主要集中分布在（ ）\n①北半球 ②南半球 ③东半球 ④西半球",
-    image: "/pkg_quiz/images/q22.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q22.png",
     options: [
       { key: "A", content: "①③" },
       { key: "B", content: "②③" },
@@ -897,7 +897,7 @@
   {
     id: 208, chapterId: 10301, type: "single",
     content: "8. (如图) 图5中东西半球的划分经线是（ ）",
-    image: "/pkg_quiz/images/q22.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q22.png",
     options: [
       { key: "A", content: "0° 180°经线" },
       { key: "B", content: "20°W 160°E" },
@@ -913,7 +913,7 @@
   {
     id: 209, chapterId: 10401, type: "single",
     content: "9. (如图) 巴黎奥运会开幕式当天下了小雨。下列天气符号代表的天气最适合描述当天天气的是（ ）",
-    image: "/pkg_quiz/images/q23.png", // 题干+选项图
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q23.png", // 题干+选项图
     options: [
       { key: "A", content: "图A" },
       { key: "B", content: "图B" },
@@ -929,7 +929,7 @@
   {
     id: 210, chapterId: 10103, type: "single",
     content: "10. (如图) 巴黎奥运会期间(7月26日开始)，地球运动的位置是在（ ）",
-    image: "/pkg_quiz/images/q24.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q24.png",
     options: [
       { key: "A", content: "①" },
       { key: "B", content: "②" },
@@ -943,7 +943,7 @@
   {
     id: 211, chapterId: 10103, type: "single",
     content: "11. (如图) 奥运会期间，巴黎(48°N)的昼夜变化规律是（ ）",
-    image: "/pkg_quiz/images/q24.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q24.png",
     options: [
       { key: "A", content: "昼夜等长" },
       { key: "B", content: "白昼越来越长" },
@@ -959,7 +959,7 @@
   {
     id: 212, chapterId: 10501, type: "single",
     content: "12. (如图) 读部分大洲人口统计图，人口自然增长率最快的大洲是（ ）",
-    image: "/pkg_quiz/images/q25.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q25.png",
     options: [
       { key: "A", content: "非洲" },
       { key: "B", content: "北美洲" },
@@ -973,7 +973,7 @@
   {
     id: 213, chapterId: 10501, type: "single",
     content: "13. (如图) 据图推测，欧洲面临的问题是（ ）",
-    image: "/pkg_quiz/images/q25.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q25.png",
     options: [
       { key: "A", content: "就业压力大" },
       { key: "B", content: "生态环境破坏" },
@@ -989,7 +989,7 @@
   {
     id: 214, chapterId: 10502, type: "single",
     content: "14. (如图) 图8的区域( )",
-    image: "/pkg_quiz/images/q26.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q26.png",
     options: [
       { key: "A", content: "保留了更多的自然风貌" },
       { key: "B", content: "是城镇" },
@@ -1003,7 +1003,7 @@
   {
     id: 215, chapterId: 10502, type: "single",
     content: "15. 由乡村到城镇，其变化是（ ）",
-    image: "/pkg_quiz/images/q26.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q26.png",
     options: [
       { key: "A", content: "就业、学习机会减少" },
       { key: "B", content: "范围越来越小" },
@@ -1022,7 +1022,7 @@
   {
     id: 301, chapterId: 10101, type: "single",
     content: "1. (如图) 当“嫦娥六号”进入地月转移轨道时，按天体系统从低到高的层次，其所处的天体系统为（ ）",
-    image: "/pkg_quiz/images/q27.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q27.png",
     options: [
       { key: "A", content: "①②⑤" },
       { key: "B", content: "①②④" },
@@ -1036,7 +1036,7 @@
   {
     id: 302, chapterId: 10101, type: "single",
     content: "2. 登月后，航天员不可能遇到的困难是（ ）",
-    image: "/pkg_quiz/images/q27.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q27.png",
     options: [
       { key: "A", content: "洪涝" },
       { key: "B", content: "失重" },
@@ -1052,7 +1052,7 @@
   {
     id: 303, chapterId: 10203, type: "single",
     content: "3. (如图) 户型示意图的比例尺约为（ ）",
-    image: "/pkg_quiz/images/q28.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q28.png",
     options: [
       { key: "A", content: "1:10" },
       { key: "B", content: "1:100" },
@@ -1066,7 +1066,7 @@
   {
     id: 304, chapterId: 10203, type: "single",
     content: "4. (如图) 下列对小明家地理位置的叙述，正确的是（ ）",
-    image: "/pkg_quiz/images/q28.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q28.png",
     options: [
       { key: "A", content: "小明家周围没有绿地" },
       { key: "B", content: "商业楼位于小区南部" },
@@ -1082,7 +1082,7 @@
   {
     id: 305, chapterId: 10302, type: "single",
     content: "5. (如图) 图中各类海底地形中，与人类生活最密切的是（ ）",
-    image: "/pkg_quiz/images/q29.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q29.png",
     options: [
       { key: "A", content: "大陆架" },
       { key: "B", content: "大陆坡" },
@@ -1096,7 +1096,7 @@
   {
     id: 306, chapterId: 10302, type: "single",
     content: "6. (如图) “深海一号”最大作业地点可能位于（ ）",
-    image: "/pkg_quiz/images/q29.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q29.png",
     options: [
       { key: "A", content: "大陆架" },
       { key: "B", content: "大陆坡" },
@@ -1110,7 +1110,7 @@
   {
     id: 307, chapterId: 10302, type: "single",
     content: "7. 关于海洋资源的开发和保护，合理的是（ ）",
-    image: "/pkg_quiz/images/q29.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q29.png",
     options: [
       { key: "A", content: "海洋空间广阔，可大面积填海造陆" },
       { key: "B", content: "捕养结合，禁止过度捕捞海洋生物" },
@@ -1126,7 +1126,7 @@
   {
     id: 308, chapterId: 10401, type: "single",
     content: "8. (如图) 该市未来一周（ ）",
-    image: "/pkg_quiz/images/q30.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q30.png",
     options: [
       { key: "A", content: "天气寒冷" },
       { key: "B", content: "风力强劲" },
@@ -1140,7 +1140,7 @@
   {
     id: 309, chapterId: 10401, type: "single",
     content: "9. 下列表示周二风向和风力的天气符号是（ ）",
-    image: "/pkg_quiz/images/q30.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q30.png",
     options: [
       { key: "A", content: "东北风1级" },
       { key: "B", content: "东北风4级" },
@@ -1154,7 +1154,7 @@
   {
     id: 310, chapterId: 10401, type: "single",
     content: "10. (如图) 如图中正确表示周四生活指数的是（ ）",
-    image: "/pkg_quiz/images/q30.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q30.png",
     options: [
       { key: "A", content: "洗车指数：适宜" },
       { key: "B", content: "雨伞指数：适宜" },
@@ -1170,7 +1170,7 @@
   {
     id: 311, chapterId: 10404, type: "single",
     content: "11. (如图) 该实验模拟的是（ ）",
-    image: "/pkg_quiz/images/q31.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q31.png",
     options: [
       { key: "A", content: "全球变暖" },
       { key: "B", content: "酸雨污染" },
@@ -1184,7 +1184,7 @@
   {
     id: 312, chapterId: 10404, type: "single",
     content: "12. 大气中二氧化碳含量增多的主要原因是（ ）\n①火山喷发 ②煤、石油的大量燃烧\n③人口数量的急剧增长 ④过度砍伐森林",
-    image: "/pkg_quiz/images/q31.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q31.png",
     options: [
       { key: "A", content: "①②" },
       { key: "B", content: "①④" },
@@ -1198,7 +1198,7 @@
   {
     id: 313, chapterId: 10404, type: "single",
     content: "13. 低碳生活，从我做起。下列“小事”不符合低碳生活原则的是（ ）",
-    image: "/pkg_quiz/images/q31.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q31.png",
     options: [
       { key: "A", content: "提倡步行、骑自行车" },
       { key: "B", content: "随手关灯，节约用电" },
@@ -1214,7 +1214,7 @@
   {
     id: 314, chapterId: 10501, type: "single",
     content: "14. (如图) 世界人口密集区中，以黄色人种为主的是（ ）",
-    image: "/pkg_quiz/images/q32.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q32.png",
     options: [
       { key: "A", content: "①地区 (欧洲西部)" },
       { key: "B", content: "②地区 (南亚)" },
@@ -1228,7 +1228,7 @@
   {
     id: 315, chapterId: 10501, type: "single",
     content: "15. (如图) ⑤地区人口稀少的主要原因是（ ）",
-    image: "/pkg_quiz/images/q32.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q32.png",
     options: [
       { key: "A", content: "空气稀薄" },
       { key: "B", content: "气候干热" },
@@ -1247,7 +1247,7 @@
   {
     id: 316, chapterId: 10101, type: "single",
     content: "1. (如图) 嫦娥六号能实现从月球背面采样返回，反映了（ ）",
-    image: "/pkg_quiz/images/q33.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q33.png",
     options: [
       { key: "A", content: "月球是地球的天然卫星" },
       { key: "B", content: "我国航空航天技术发展迅速" },
@@ -1261,7 +1261,7 @@
   {
     id: 317, chapterId: 10101, type: "single",
     content: "2. 我国航天员未来在月球科研站面临的困难有（ ）\n①太空辐射对身体的伤害 ②大型肉食动物的威胁\n③月球剧烈的温度变化 ④太阳能资源的严重不足",
-    image: "/pkg_quiz/images/q33.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q33.png",
     options: [
       { key: "A", content: "①③" },
       { key: "B", content: "②④" },
@@ -1277,7 +1277,7 @@
   {
     id: 318, chapterId: 10103, type: "single",
     content: "3. (如图) 用手拨动地球仪自西向东旋转，演示内容是（ ）",
-    image: "/pkg_quiz/images/q34.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q34.png",
     options: [
       { key: "A", content: "地球公转" },
       { key: "B", content: "地球自转" },
@@ -1291,7 +1291,7 @@
   {
     id: 319, chapterId: 10103, type: "single",
     content: "4. (如图) 图中P点地区，此时正值（ ）",
-    image: "/pkg_quiz/images/q34.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q34.png",
     options: [
       { key: "A", content: "正午" },
       { key: "B", content: "午夜" },
@@ -1307,7 +1307,7 @@
   {
     id: 320, chapterId: 10203, type: "single",
     content: "5. (如图) 位置共享地图属于（ ）",
-    image: "/pkg_quiz/images/q35.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q35.png",
     options: [
       { key: "A", content: "数字地图" },
       { key: "B", content: "地形剖面图" },
@@ -1321,7 +1321,7 @@
   {
     id: 321, chapterId: 10203, type: "single",
     content: "6. (如图) 当滑动手机屏幕放大地图时，地图（ ）",
-    image: "/pkg_quiz/images/q35.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q35.png",
     options: [
       { key: "A", content: "比例尺变大，范围变大" },
       { key: "B", content: "比例尺变小，范围变大" },
@@ -1335,7 +1335,7 @@
   {
     id: 322, chapterId: 10203, type: "single",
     content: "7. (如图) 与纸质地图相比，位置共享地图的优点有（ ）\n①信息量小 ②不易携带 ③实时更新 ④精准定位",
-    image: "/pkg_quiz/images/q35.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q35.png",
     options: [
       { key: "A", content: "①③" },
       { key: "B", content: "②④" },
@@ -1351,7 +1351,7 @@
   {
     id: 323, chapterId: 10302, type: "single",
     content: "8. (如图) 曲线图中的高大山脉与海沟的相对高度为（ ）",
-    image: "/pkg_quiz/images/q36.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q36.png",
     options: [
       { key: "A", content: "-16000米" },
       { key: "B", content: "8000米" },
@@ -1365,7 +1365,7 @@
   {
     id: 324, chapterId: 10302, type: "single",
     content: "9. (如图) 海底地形中最靠近陆地的是（ ）",
-    image: "/pkg_quiz/images/q36.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q36.png",
     options: [
       { key: "A", content: "大洋中脊" },
       { key: "B", content: "大陆坡" },
@@ -1381,7 +1381,7 @@
   {
     id: 325, chapterId: 10403, type: "single",
     content: "10. (如图) 考虑年降水量和人口的前提下，该防水雨具企业初步圈定的国外重点销售市场包括（ ）",
-    image: "/pkg_quiz/images/q37.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q37.png",
     options: [
       { key: "A", content: "北极圈附近的北美洲地区" },
       { key: "B", content: "南极圈附近的南极大陆" },
@@ -1395,7 +1395,7 @@
   {
     id: 326, chapterId: 10601, type: "single",
     content: "11. 该企业选定南美洲作为国外销售市场之一，中国企业与南美洲企业间的经济商谈属于（ ）",
-    image: "/pkg_quiz/images/q37.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q37.png",
     options: [
       { key: "A", content: "政治对话" },
       { key: "B", content: "南南合作" },
@@ -1411,7 +1411,7 @@
   {
     id: 327, chapterId: 20801, type: "single",
     content: "12. (如图) 举办国男子多身着白色长袍，头戴白色头巾，这是为了适应当地气候（ ）",
-    image: "/pkg_quiz/images/q38.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q38.png",
     options: [
       { key: "A", content: "高温多雨" },
       { key: "B", content: "炎热干燥" },
@@ -1425,7 +1425,7 @@
   {
     id: 328, chapterId: 20801, type: "single",
     content: "13. (如图) 推测该气候区的传统民居最可能是（ ）",
-    image: "/pkg_quiz/images/q39.png", // 题干+4个民居图
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q39.png", // 题干+4个民居图
     options: [
       { key: "A", content: "图A (土楼)" },
       { key: "B", content: "图B (竹楼)" },
@@ -1441,7 +1441,7 @@
   {
     id: 329, chapterId: 10502, type: "single",
     content: "14. (如图) 1984年至2024年，深圳市水围村（ ）\n①建筑密度增大 ②交通线路增多 ③基础设施不变 ④自然景观保护力度增强",
-    image: "/pkg_quiz/images/q40.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q40.png",
     options: [
       { key: "A", content: "①②" },
       { key: "B", content: "③④" },
@@ -1455,7 +1455,7 @@
   {
     id: 330, chapterId: 10502, type: "single",
     content: "15. (如图) 水围村从成畦的水田到高楼林立，最突出的变化是（ ）",
-    image: "/pkg_quiz/images/q40.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q40.png",
     options: [
       { key: "A", content: "自然环境的变化" },
       { key: "B", content: "地域文化的变化" },
@@ -1474,7 +1474,7 @@
   {
     id: 401, chapterId: 10101, type: "single",
     content: "1. (如图) 太空探索使我们认识到（ ）",
-    image: "/pkg_quiz/images/q41.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q41.png",
     options: [
       { key: "A", content: "地球在火星和金星之间" },
       { key: "B", content: "地球是太阳系中的卫星" },
@@ -1488,7 +1488,7 @@
   {
     id: 402, chapterId: 10101, type: "single",
     content: "2. 地球是目前已知唯一存在生命的星球，是因为地球上有（ ）\n①日地距离适中，温度适中\n②体积、质量适中，有适合呼吸的大气\n③存在液态水\n④自身发光发热供应生物需求",
-    image: "/pkg_quiz/images/q41.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q41.png",
     options: [
       { key: "A", content: "①②③" },
       { key: "B", content: "②③④" },
@@ -1502,7 +1502,7 @@
   {
     id: 403, chapterId: 10101, type: "single",
     content: "3. 我国进行太空探索的意义主要有（ ）\n①探索宇宙奥秘 ②提高国家的科技水平\n③占领太空资源 ④提升中国的国际影响力",
-    image: "/pkg_quiz/images/q41.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q41.png",
     options: [
       { key: "A", content: "①②③" },
       { key: "B", content: "①②④" },
@@ -1518,7 +1518,7 @@
   {
     id: 404, chapterId: 10102, type: "single",
     content: "4. (如图) 制作地球仪时（ ）",
-    image: "/pkg_quiz/images/q42.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q42.png",
     options: [
       { key: "A", content: "用圆圈表示经线" },
       { key: "B", content: "纬线要相互平行" },
@@ -1535,7 +1535,7 @@
   {
     id: 405, chapterId: 10103, type: "single", // 地球运动
     content: "5. (如图) 用自制的地球仪演示地球自转时（ ）",
-    image: "/pkg_quiz/images/q42.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q42.png",
     options: [
       { key: "A", content: "从左向右拨动球体" },
       { key: "B", content: "需绕假想太阳旋转" },
@@ -1551,7 +1551,7 @@
   {
     id: 406, chapterId: 10102, type: "single",
     content: "6. (如图) “奋斗者”号下潜地点的经纬度位置为（ ）",
-    image: "/pkg_quiz/images/q43.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q43.png",
     options: [
       { key: "A", content: "11.3°S, 142.2°W" },
       { key: "B", content: "11.3°N, 142.2°W" },
@@ -1565,7 +1565,7 @@
   {
     id: 407, chapterId: 10302, type: "single",
     content: "7. (如图) “奋斗者”号所到达的海底最深处地形是（ ）",
-    image: "/pkg_quiz/images/q43.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q43.png",
     options: [
       { key: "A", content: "海岭" },
       { key: "B", content: "大陆坡" },
@@ -1581,7 +1581,7 @@
   {
     id: 408, chapterId: 10203, type: "single",
     content: "8. (如图) 在查询过程中，小华对手机地图进行了“放大”和“缩小”操作，该操作可以改变（ ）",
-    image: "/pkg_quiz/images/q44.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q44.png",
     options: [
       { key: "A", content: "图幅的大小" },
       { key: "B", content: "机场的地理位置" },
@@ -1595,7 +1595,7 @@
   {
     id: 409, chapterId: 10401, type: "single", // 天气
     content: "9. (如图) 简祥于公园，空气清新，天空湛蓝。此时，小华拍摄照片时的天气是（ ）",
-    image: "/pkg_quiz/images/q45.png", // 题干+选项图
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q45.png", // 题干+选项图
     options: [
       { key: "A", content: "图A" },
       { key: "B", content: "图B" },
@@ -1611,7 +1611,7 @@
   {
     id: 410, chapterId: 10103, type: "single",
     content: "10. (如图) 二十四节气的更替是由于（ ）",
-    image: "/pkg_quiz/images/q46.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q46.png",
     options: [
       { key: "A", content: "地球自转" },
       { key: "B", content: "地球形状" },
@@ -1625,7 +1625,7 @@
   {
     id: 411, chapterId: 10103, type: "single",
     content: "11. (如图) 下列谚语中依据“二十四节气”指导农业生产的是（ ）",
-    image: "/pkg_quiz/images/q46.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q46.png",
     options: [
       { key: "A", content: "春分不种麦，别怨收成坏" },
       { key: "B", content: "白露秋分夜，一夜冷一夜" },
@@ -1641,7 +1641,7 @@
   {
     id: 412, chapterId: 10302, type: "single",
     content: "12. (如图) 图8中占比最高的地形类型是（ ）",
-    image: "/pkg_quiz/images/q47.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q47.png",
     options: [
       { key: "A", content: "高原" },
       { key: "B", content: "平原" },
@@ -1655,7 +1655,7 @@
   {
     id: 413, chapterId: 10302, type: "single",
     content: "13. (如图) 该地区占比最高的地形类型对应的是地形景观照片中的（ ）",
-    image: "/pkg_quiz/images/q47.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q47.png",
     options: [
       { key: "A", content: "甲" },
       { key: "B", content: "乙" },
@@ -1671,7 +1671,7 @@
   {
     id: 414, chapterId: 10402, type: "single",
     content: "14. (如图) 世界气温分布的一般规律是（ ）",
-    image: "/pkg_quiz/images/q48.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q48.png",
     options: [
       { key: "A", content: "从两极向赤道递减" },
       { key: "B", content: "从沿海向内陆递减" },
@@ -1685,7 +1685,7 @@
   {
     id: 415, chapterId: 10402, type: "single",
     content: "15. (如图) 甲地无特大城市，主要影响因素是（ ）",
-    image: "/pkg_quiz/images/q48.png",
+    image: "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q48.png",
     options: [
       { key: "A", content: "纬度位置" },
       { key: "B", content: "海陆位置" },
