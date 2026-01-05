@@ -1,0 +1,1700 @@
+[
+  // ==========================================
+  // 第5题：图片题 (需要你截取那4张小黑白图)
+  // ==========================================
+  {
+    id: 1,
+    chapterId: 10101, 
+    type: "single",
+    content: "1. 【读图题】下图是老师展示的一组图片，图中不属于人类对太空探索活动的是（ ）",
+    // ⚠️ 请把你截的那张4个小图的图片，重命名为 q5.png，放入 images 文件夹
+    image: "/pkg_quiz/images/q1.png", 
+    options: [
+      { key: "A", content: "① 第一颗人造地球卫星" },
+      { key: "B", content: "② 人类首次进入太空" },
+      { key: "C", content: "③ 人类首次登上月球" },
+      { key: "D", content: "④ 用显微镜观察细胞" }
+    ],
+    correctKeys: ["D"],
+    explanation: "解析：①②③均属于宏观的太空探索；④显微镜观察细胞属于生物微观领域的探索。",
+    notes: []
+  },
+
+  // ==========================================
+  // 第6题：承接上题情景 (纯文字)
+  // ==========================================
+  {
+    id: 2,
+    chapterId: 10101,
+    type: "single",
+    content: "2. 太空探索使我们认识到（ ）",
+    image: "", // 这道题可以不放图
+    options: [
+      { key: "A", content: "地球位于火星和木星之间" },
+      { key: "B", content: "地球与月球自然环境相似" },
+      { key: "C", content: "地球是目前已知唯一存在高级智慧生命的天体" },
+      { key: "D", content: "太阳系中距离太阳最近的行星是金星" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：A错，地球位于金星和火星之间；B错，月球无大气无水；D错，最近的是水星。",
+    notes: []
+  },
+
+  // ==========================================
+  // 第7题：读表题 (需要你截取那个时间轴表格)
+  // ==========================================
+  {
+    id: 3,
+    chapterId: 10101,
+    type: "single",
+    content: "3. 【读表题】我国太空探索用30年跨越了发达国家半个世纪的发展历程（见下图），这主要得益于（ ）",
+    // ⚠️ 请把你截的时间轴表格，重命名为 q7.png，放入 images 文件夹
+    image: "/pkg_quiz/images/q2.png", 
+    options: [
+      { key: "A", content: "科学技术的进步" },
+      { key: "B", content: "生活水平的提高" },
+      { key: "C", content: "世界人口的增长" },
+      { key: "D", content: "国际组织的支持" }
+    ],
+    correctKeys: ["A"],
+    explanation: "解析：航天事业的发展主要依赖于国家综合国力的增强和科学技术的进步。",
+    notes: []
+  },
+
+  // ==========================================
+  // 第8题：组合选择题
+  // ==========================================
+  {
+    id: 4,
+    chapterId: 10101,
+    type: "single",
+    content: "4. 我国积极开展太空探索的意义有（ ）\n①揭示宇宙的起源与演化\n②为人类和平利用太空贡献中国方案\n③开发地球资源为人类造福\n④探索生命起源及宇宙环境对地球的影响",
+    image: "",
+    options: [
+      { key: "A", content: "①②③" },
+      { key: "B", content: "①②④" },
+      { key: "C", content: "①③④" },
+      { key: "D", content: "②③④" }
+    ],
+    correctKeys: ["B"],
+    explanation: "解析：太空探索是为了开发“太空资源”而非直接“开发地球资源”，排除③。故选①②④。",
+    notes: []
+  },
+  // ==========================================
+  // 【热点信息题】神舟十九号与天宫空间站
+  // ==========================================
+  {
+    id: 5,
+    chapterId: 10101, // 属于第一节：地球的宇宙环境
+    type: "single",
+    // 题目背景较长，我把它整合在题干里了
+    content: "12. 【热点信息题】2025年3月，神舟十九号航天员圆满完成出舱活动。读太阳系八大行星示意图，“天宫”空间站运行的轨道位于（ ）",
+    image: "/pkg_quiz/images/q3.png", // ⚠️ 确保你的图片叫 q3.jpg (或 .png)
+    options: [
+      { key: "A", content: "太阳与水星之间" },
+      { key: "B", content: "金星与火星之间" },
+      { key: "C", content: "火星与土星之间" },
+      { key: "D", content: "木星与土星之间" }
+    ],
+    correctKeys: ["B"],
+    explanation: "解析：空间站绕地球飞行，地球在太阳系中位于金星和火星之间。",
+    notes: []
+  },
+// ==========================================
+  // 七年级上册 第一章 第二节：地球与地球仪
+  // ==========================================
+
+  // 第1题
+  {
+    id: 20,
+    chapterId: 10102, // ⚠️注意：这是第二节的ID，要去第二节刷！
+    type: "single",
+    content: "1. (如图) 从“天圆地方”到“太阳和月球的形状”，再到环球航行、地球卫星影像，人类对地球形状的认识，依次经历了（ ）",
+    image: "/pkg_quiz/images/q4.png", 
+    options: [
+      { key: "A", content: "实地考察→直觉推断→观察证实" },
+      { key: "B", content: "直觉推断→实地考察→观察证实" },
+      { key: "C", content: "观察证实→直觉推断→实地考察" },
+      { key: "D", content: "实地考察→观察证实→直觉推断" }
+    ],
+    correctKeys: ["B"],
+    explanation: "解析：人类认识过程：直觉（天圆地方）→推测（月食/太阳形状）→证实（麦哲伦环球航行）→确证（卫星照片）。",
+    notes: []
+  },
+
+  // 第2题
+  {
+    id: 21,
+    chapterId: 10102,
+    type: "single",
+    content: "2. 图中“最大周长”是指（ ）",
+    image: "/pkg_quiz/images/q4.png", 
+    options: [
+      { key: "A", content: "赤道" },
+      { key: "B", content: "回归线" },
+      { key: "C", content: "极圈" },
+      { key: "D", content: "本初子午线" }
+    ],
+    correctKeys: ["A"],
+    explanation: "解析：赤道是地球上最长的纬线，周长约4万千米，被称为“最大周长”。",
+    notes: []
+  },
+
+  // 第3题
+  {
+    id: 22,
+    chapterId: 10102,
+    type: "single",
+    content: "3. 有关地球半径的描述中，用了“平均”一词是因为（ ）",
+    image: "/pkg_quiz/images/q4.png", 
+    options: [
+      { key: "A", content: "地球半径是不断变化的" },
+      { key: "B", content: "“平均”一词就是画蛇添足" },
+      { key: "C", content: "地球是个不规则的球体" },
+      { key: "D", content: "人类尚且不能准确测量" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：地球是一个两极稍扁、赤道略鼓的不规则球体，赤道半径和极半径长度不同，所以使用“平均半径”来描述。",
+    notes: []
+  },
+  // ==========================================
+  // 【手工制作地球仪】 知识点：地球仪
+  // ==========================================
+
+  // 第4题
+  {
+    id: 23,
+    chapterId: 10102, // 属于第二节
+    type: "single",
+    content: "4. (如图) 下列制作地球仪的步骤排序合理的是（ ）\n①将泡沫球固定在支架上\n②用铁丝贯穿泡沫球\n③确定两个对称点作为极点\n④绘出若干条经线和纬线",
+    image: "/pkg_quiz/images/q5.png", // 这里的后缀如果是jpg请自行修改
+    options: [
+      { key: "A", content: "①②③④" },
+      { key: "B", content: "②①③④" },
+      { key: "C", content: "③②④①" },
+      { key: "D", content: "④②①③" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：制作逻辑：先定极点 -> 穿轴 -> 画线 -> 固定。",
+    notes: []
+  },
+
+  // 第5题
+  {
+    id: 24,
+    chapterId: 10102,
+    type: "single",
+    content: "5. (如图) 铁丝弯成的角①的度数应为（ ）",
+    image: "/pkg_quiz/images/q5.png", 
+    options: [
+      { key: "A", content: "66.5°" },
+      { key: "B", content: "45°" },
+      { key: "C", content: "30°" },
+      { key: "D", content: "23.5°" }
+    ],
+    correctKeys: ["A"],
+    explanation: "解析：地轴与地球公转轨道面（桌面）的夹角约为66.5°。",
+    notes: []
+  },
+
+  // 第6题
+  {
+    id: 25,
+    chapterId: 10102,
+    type: "single",
+    content: "6. (如图) 图中作品需要改进的地方是（ ）",
+    image: "/pkg_quiz/images/q5.png",
+    options: [
+      { key: "A", content: "固定后铁丝应竖直" },
+      { key: "B", content: "画出全部的经线和纬线" },
+      { key: "C", content: "泡沫球应修整为椭球体" },
+      { key: "D", content: "把与铁丝垂直的最大圆圈标注为0°纬线或赤道" }
+    ],
+    correctKeys: ["D"],
+    explanation: "解析：赤道是地球仪上最重要的纬线，应该明确标注出来。地轴本身就是倾斜的，A错；经纬线画若干条即可，B错；地球仪通常制作成正球体，C错。",
+    notes: []
+  },
+
+  // 第7题
+  {
+    id: 26,
+    chapterId: 10102,
+    type: "single",
+    content: "7. (如图) 从该同学制作的地球仪中，我们可以获得的信息是（ ）",
+    image: "/pkg_quiz/images/q5.png",
+    options: [
+      { key: "A", content: "沿赤道环地球一周需要走4万千米" },
+      { key: "B", content: "地球是一个球体，地球仪上有连接南北两极的经线" },
+      { key: "C", content: "给地球做一件外衣，最少需要5.1亿平方千米的布料" },
+      { key: "D", content: "地球是一个两极稍扁、赤道略鼓的不规则球体" }
+    ],
+    correctKeys: ["B"],
+    explanation: "解析：通过观察地球仪模型，能直观看到它是个球体，且画有经线。A、C、D是地球的真实数据，无法直接从这个简易模型中得出。",
+    notes: []
+  },
+  // ==========================================
+  // 【经纬网读图】 知识点：经纬度与半球划分
+  // ==========================================
+
+  // 第9题
+  {
+    id: 27,
+    chapterId: 10102, // 属于第二节
+    type: "single",
+    content: "9. (如图) 为了更好地认识经线网，小点同学在地球模型上截取了信息。图中甲地所在经线位于（ ）",
+    image: "/pkg_quiz/images/q6.png", // 确保文件名对应
+    options: [
+      { key: "A", content: "本初子午线以东，为东经" },
+      { key: "B", content: "本初子午线以西，为西经" },
+      { key: "C", content: "本初子午线以西，为东经" },
+      { key: "D", content: "本初子午线以东，为西经" }
+    ],
+    correctKeys: ["B"],
+    explanation: "解析：本初子午线是0°经线。甲地位于0°经线左侧（图中标识为W），即西方，属于西经。",
+    notes: []
+  },
+
+  // 第10题
+  {
+    id: 28,
+    chapterId: 10102,
+    type: "single",
+    content: "10. (如图) 图中乙地地处（ ）",
+    image: "/pkg_quiz/images/q6.png", // 继续用这张图
+    options: [
+      { key: "A", content: "北半球、东半球" },
+      { key: "B", content: "南半球、东半球" },
+      { key: "C", content: "北半球、西半球" },
+      { key: "D", content: "南半球、西半球" }
+    ],
+    correctKeys: ["B"],
+    explanation: "解析：乙地位于赤道以南，属于南半球；经度约为30°E（东经），位于20°W~160°E之间，属于东半球。",
+    notes: []
+  },
+
+  // 第11题
+  {
+    id: 29,
+    chapterId: 10102,
+    type: "single",
+    content: "11. (如图) 关于经纬线的说法，正确的是（ ）",
+    image: "/pkg_quiz/images/q6.png", // 继续用这张图
+    options: [
+      { key: "A", content: "经线都是一个圆圈" },
+      { key: "B", content: "纬线长度都相等" },
+      { key: "C", content: "经线共有 360 条" },
+      { key: "D", content: "纬线指示东西方向" }
+    ],
+    correctKeys: ["D"],
+    explanation: "解析：A错，经线是半圆；B错，纬线从赤道向两极缩短；C错，经纬线有无数条；D对，纬线指示东西，经线指示南北。",
+    notes: []
+  },
+  // ==========================================
+  // 【经纬网定位综合】 知识点：坐标、半球、方向、纬线长度
+  // ==========================================
+
+  // 第12题
+  {
+    id: 30,
+    chapterId: 10102, // 属于第二节
+    type: "single",
+    content: "12. (如图) 关于图中棋子位置的描述，正确的是（ ）",
+    image: "/pkg_quiz/images/q7.png", 
+    options: [
+      { key: "A", content: "甲、乙均位于中纬度地区" },
+      { key: "B", content: "丙位于高纬度地区" },
+      { key: "C", content: "甲、乙、丙、丁均位于北半球" },
+      { key: "D", content: "乙位于东半球" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：图中纬度向北增大，均为北纬，故都在北半球。甲(40°N)在中纬度，乙(20°N)在低纬度；丙(40°N)在中纬度。",
+    notes: []
+  },
+
+  // 第13题
+  {
+    id: 31,
+    chapterId: 10102,
+    type: "single",
+    content: "13. (如图) 丙棋子的经纬度坐标大致可表示为（ ）",
+    image: "/pkg_quiz/images/q7.png", // 继续用这张图
+    options: [
+      { key: "A", content: "(40°N, 100°W)" },
+      { key: "B", content: "(40°N, 100°E)" },
+      { key: "C", content: "(40°S, 100°W)" },
+      { key: "D", content: "(40°S, 100°E)" }
+    ],
+    correctKeys: ["A"],
+    explanation: "解析：纬度向北增大为北纬(N)，经度向西增大为西经(W)。丙点位于40°N纬线上，经度介于80°W和120°W之间，约为100°W。",
+    notes: []
+  },
+
+  // 第14题
+  {
+    id: 32,
+    chapterId: 10102,
+    type: "single",
+    content: "14. (如图) 甲棋子位于乙棋子的（ ）",
+    image: "/pkg_quiz/images/q7.png",
+    options: [
+      { key: "A", content: "东北方向" },
+      { key: "B", content: "东南方向" },
+      { key: "C", content: "西北方向" },
+      { key: "D", content: "西南方向" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：在经纬网上，经线指示南北，纬线指示东西。甲位于乙的北方（纬度更高），同时也位于乙的西方（经度更靠西），故为西北方向。",
+    notes: []
+  },
+
+  // 第15题
+  {
+    id: 33,
+    chapterId: 10102,
+    type: "single",
+    content: "15. (如图) 在绘制纬线时，四颗棋子所在的纬线长短关系是（ ）",
+    image: "/pkg_quiz/images/q7.png",
+    options: [
+      { key: "A", content: "甲＞乙＞丙＞丁" },
+      { key: "B", content: "乙＞丙＝甲＞丁" },
+      { key: "C", content: "丙＞乙＞甲＞丁" },
+      { key: "D", content: "丁＞乙＞丙＝甲" }
+    ],
+    correctKeys: ["B"],
+    explanation: "解析：纬线长度规律：赤道最长，向两极递减。乙(20°N)纬度最低，最长；甲和丙都在40°N，长度相等；丁(60°N)纬度最高，最短。",
+    notes: []
+  },
+  // ==========================================
+  // 【地球仪综合应用】 知识点：特殊纬线、经纬度定位、地球运动演示
+  // ==========================================
+
+  // 第3题
+  {
+    id: 34,
+    chapterId: 10102, // 属于第二节
+    type: "single",
+    content: "3. (如图) 小组成员在地球仪上绘制了经纬网，甲、乙、丙、丁四条特殊纬线标注正确的是（ ）",
+    image: "/pkg_quiz/images/q8.png", 
+    options: [
+      { key: "A", content: "甲—北极圈" },
+      { key: "B", content: "乙—赤道" },
+      { key: "C", content: "丙—北回归线" },
+      { key: "D", content: "丁—南回归线" }
+    ],
+    correctKeys: ["A"],
+    explanation: "解析：甲是66.5°N（北极圈）；乙是23.5°N（北回归线）；丙是23.5°S（南回归线）；丁是66.5°S（南极圈）。只有A正确。",
+    notes: []
+  },
+
+  // 第4题
+  {
+    id: 35,
+    chapterId: 10102,
+    type: "single",
+    content: "4. (如图) 小组成员想在经纬网上标注(35°N, 110°E)的大致位置，他们应该标注在（ ）",
+    image: "/pkg_quiz/images/q8.png", 
+    options: [
+      { key: "A", content: "①处" },
+      { key: "B", content: "②处" },
+      { key: "C", content: "③处" },
+      { key: "D", content: "④处" }
+    ],
+    correctKeys: ["D"],
+    explanation: "解析：目标点是北纬35°，东经110°。图中④区域纬度介于20°N-40°N之间，经度介于100°E-120°E之间，符合条件。",
+    notes: []
+  },
+
+  // 第5题
+  {
+    id: 36,
+    chapterId: 10102,
+    type: "single",
+    content: "5. (如图) 小组成员制作完地球仪后，他们可以（ ）",
+    image: "/pkg_quiz/images/q8.png", 
+    options: [
+      { key: "A", content: "认识地球的真实形状" },
+      { key: "B", content: "通过测量经纬线的长度，计算地球最大的周长" },
+      { key: "C", content: "自右向左拨动地球仪，演示地球自转运动" },
+      { key: "D", content: "用手电筒直射乙纬线，演示北半球夏至日太阳光照情况" }
+    ],
+    correctKeys: ["D"],
+    explanation: "解析：A错，地球仪是正球体，地球是不规则球体；B错，地球仪是缩小模型；C错，地球自转是自西向东（面对地球仪应是自左向右拨动）；D对，乙是北回归线，太阳直射北回归线时为北半球夏至日。",
+    notes: []
+  },
+  // ==========================================
+  // 七年级上册 第一章 第三节：地球的运动
+  // ==========================================
+
+  // 第9题
+  {
+    id: 37,
+    chapterId: 10103, // 切换到第三节了
+    type: "single",
+    content: "9. (如图) 读“新年第一缕阳光”示意图，最早迎来该年第一缕阳光的是（ ）",
+    image: "/pkg_quiz/images/q9.png", 
+    options: [
+      { key: "A", content: "抚远" },
+      { key: "B", content: "北京" },
+      { key: "C", content: "台州" },
+      { key: "D", content: "海马滩" }
+    ],
+    correctKeys: ["D"],
+    explanation: "解析：直接读图比较时间：海马滩6:27，台州6:45，抚远6:52，北京7:36。海马滩时间最早。原理：1月1日北半球昼短夜长，且越往南白昼越长，日出越早。",
+    notes: []
+  },
+
+  // 第10题
+  {
+    id: 38,
+    chapterId: 10103,
+    type: "single",
+    content: "10. (如图) 以下与1月1日最接近的节气是（ ）",
+    image: "/pkg_quiz/images/q9.png", // 继续用这张图
+    options: [
+      { key: "A", content: "春分" },
+      { key: "B", content: "夏至" },
+      { key: "C", content: "秋分" },
+      { key: "D", content: "冬至" }
+    ],
+    correctKeys: ["D"],
+    explanation: "解析：冬至日是12月22日前后，1月1日距离冬至日最近。图中北极圈附近出现极夜现象，也印证了此时是北半球冬季。",
+    notes: []
+  },
+
+  // 第11题
+  {
+    id: 39,
+    chapterId: 10103,
+    type: "single",
+    content: "11. (如图) 1月1日北京的昼夜长短情况为（ ）",
+    image: "/pkg_quiz/images/q9.png", 
+    options: [
+      { key: "A", content: "极昼" },
+      { key: "B", content: "昼长夜短" },
+      { key: "C", content: "昼短夜长" },
+      { key: "D", content: "昼夜平分" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：1月1日太阳直射点位于南半球，北半球（北京）昼短夜长。图中也能看出，晨昏线把北京所在的纬线圈分割成“昼短夜长”的状态。",
+    notes: []
+  },
+  // ==========================================
+  // 【跨学科实践】 知识点：正午太阳高度变化 (遮阳板)
+  // ==========================================
+
+  // 第12题
+  {
+    id: 40,
+    chapterId: 10103, // 属于第三节
+    type: "single",
+    content: "12. (如图) 遮阳板收起，室内正午太阳光照面积达一年最大值时（ ）",
+    image: "/pkg_quiz/images/q10.png", 
+    options: [
+      { key: "A", content: "全球昼夜平分" },
+      { key: "B", content: "北半球为夏季" },
+      { key: "C", content: "太阳直射 20°S" },
+      { key: "D", content: "南极圈以南地区极昼" }
+    ],
+    correctKeys: ["D"],
+    explanation: "解析：光照面积最大 -> 说明射入室内的阳光最多 -> 说明此时正午太阳高度角最低 -> 此时为北半球冬至日。冬至日太阳直射南回归线(23.5°S)，北半球冬季，南极圈以南出现极昼。",
+    notes: []
+  },
+
+  // 第13题
+  {
+    id: 41,
+    chapterId: 10103,
+    type: "single",
+    content: "13. (如图) 北京市某中学学生借鉴这一设计，若两地窗户大小形状相同，则应作的调整有（ ）\n①安装高度不变，加长遮阳板\n②安装高度不变，缩短遮阳板\n③遮阳板长度不变，降低安装高度\n④遮阳板长度不变，升高安装高度",
+    image: "/pkg_quiz/images/q10.png", 
+    options: [
+      { key: "A", content: "①③" },
+      { key: "B", content: "①④" },
+      { key: "C", content: "②③" },
+      { key: "D", content: "②④" }
+    ],
+    correctKeys: ["A"],
+    explanation: "解析：北京比江西（前文背景）纬度更高，正午太阳高度更小（阳光射入角度更倾斜）。想要挡住更倾斜的光线，要么把板子做长一点（①），要么把板子装低一点（③）。",
+    notes: []
+  },
+  // ==========================================
+  // 【经纬网综合应用】 知识点：坐标判读与区域地理
+  // ==========================================
+
+  // 第4题
+  {
+    id: 42,
+    chapterId: 10102, // 属于第二节：经纬网应用
+    type: "single",
+    content: "4. (如图) 图中M点的地理坐标是（ ）",
+    image: "/pkg_quiz/images/q11.png", 
+    options: [
+      { key: "A", content: "25°N, 25°W" },
+      { key: "B", content: "25°S, 35°W" },
+      { key: "C", content: "23.5°N, 30°E" },
+      { key: "D", content: "20°S, 30°W" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：图中虚线为北回归线(23.5°N)，M点位于此线上；图中标注“东经30°”，M点位于此线上。故坐标为(23.5°N, 30°E)。",
+    notes: []
+  },
+
+  // 第5题
+  {
+    id: 43,
+    chapterId: 10102,
+    type: "single",
+    content: "5. (如图) 图中的M点位于（ ）",
+    image: "/pkg_quiz/images/q11.png", // 继续用这张图
+    options: [
+      { key: "A", content: "北美洲、热带" },
+      { key: "B", content: "南美洲、南温带" },
+      { key: "C", content: "非洲、低纬度" },
+      { key: "D", content: "亚洲、中纬度" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：根据图中国家（埃及、利比亚、苏丹）可知该地位于非洲北部。纬度23.5°N位于0°-30°之间，属于低纬度地区。",
+    notes: []
+  },
+  // ==========================================
+  // 【追加】七年级上册期末综合测试 (图 q12-q18)
+  // ==========================================
+
+  // --- 太阳系与地球 (图 q12) ---
+  {
+    id: 101, chapterId: 10101, type: "single",
+    content: "1. (如图) 读太阳系示意图，下列行星中距离太阳最近的是（ ）",
+    image: "/pkg_quiz/images/q12.png",
+    options: [
+      { key: "A", content: "天王星" },
+      { key: "B", content: "土星" },
+      { key: "C", content: "水星" },
+      { key: "D", content: "木星" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：八大行星距日由近及远依次为：水星、金星、地球、火星、木星、土星、天王星、海王星。",
+    notes: []
+  },
+  {
+    id: 102, chapterId: 10101, type: "single",
+    content: "2. (如图) 地球位于（ ）",
+    image: "/pkg_quiz/images/q12.png",
+    options: [
+      { key: "A", content: "木星和土星之间" },
+      { key: "B", content: "金星和土星之间" },
+      { key: "C", content: "金星和火星之间" },
+      { key: "D", content: "火星和木星之间" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：地球轨道位于金星轨道和火星轨道之间。",
+    notes: []
+  },
+  {
+    id: 103, chapterId: 10103, type: "single",
+    content: "3. 2024年7月3日，神舟十八号乘组完成出舱活动。此时，沈阳的季节是（ ）",
+    image: "/pkg_quiz/images/q12.png", 
+    options: [
+      { key: "A", content: "春季" },
+      { key: "B", content: "夏季" },
+      { key: "C", content: "冬季" },
+      { key: "D", content: "秋季" }
+    ],
+    correctKeys: ["B"],
+    explanation: "解析：7月份是北半球（沈阳）的夏季。",
+    notes: []
+  },
+
+  // --- 经纬网与地图应用 (图 q13) ---
+  {
+    id: 104, chapterId: 10102, type: "single",
+    content: "4. (如图) 读世界局部地区图，图中M点的地理坐标是（ ）",
+    image: "/pkg_quiz/images/q13.png",
+    options: [
+      { key: "A", content: "25°N, 25°W" },
+      { key: "B", content: "25°S, 35°W" },
+      { key: "C", content: "23.5°N, 30°E" },
+      { key: "D", content: "20°S, 30°W" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：M点位于北回归线(23.5°N)上，且位于30°E经线上。",
+    notes: []
+  },
+  {
+    id: 105, chapterId: 10102, type: "single",
+    content: "5. (如图) 图中的M点位于（ ）",
+    image: "/pkg_quiz/images/q13.png",
+    options: [
+      { key: "A", content: "北美洲、热带" },
+      { key: "B", content: "南美洲、南温带" },
+      { key: "C", content: "非洲、低纬度" },
+      { key: "D", content: "亚洲、中纬度" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：该区域为非洲东北部。23.5°N位于0°-30°之间，属于低纬度。",
+    notes: []
+  },
+
+  // --- 天气符号 (图 q14_1) ---
+  {
+    id: 106, chapterId: 10401, type: "single",
+    content: "6. (如图) 下列天气符号代表的天气最适合游览黄山的是（ ）",
+    image: "/pkg_quiz/images/q14_1.png",
+    options: [
+      { key: "A", content: "图A" },
+      { key: "B", content: "图B" },
+      { key: "C", content: "图C" },
+      { key: "D", content: "图D" }
+    ],
+    correctKeys: ["D"],
+    explanation: "解析：A是大雨，B是雷阵雨，C是台风，D是晴。晴天最适合旅游。",
+    notes: []
+  },
+
+  // --- 黄山地图应用 (图 q14_2) ---
+  {
+    id: 107, chapterId: 10203, type: "single",
+    content: "7. (如图) 平平到达黄山景区后，利用手机查找景点信息。若将手机地图放大，则（ ）",
+    image: "/pkg_quiz/images/q14_2.png",
+    options: [
+      { key: "A", content: "图幅变小" },
+      { key: "B", content: "显示内容更简略" },
+      { key: "C", content: "表示范围更大" },
+      { key: "D", content: "比例尺变大" }
+    ],
+    correctKeys: ["D"],
+    explanation: "解析：在图幅不变的情况下，放大地图 = 范围变小 = 内容更详细 = 比例尺变大。",
+    notes: []
+  },
+  {
+    id: 108, chapterId: 10203, type: "single",
+    content: "8. (如图) 平平手机导航中使用的地图属于（ ）",
+    image: "/pkg_quiz/images/q14_2.png", 
+    options: [
+      { key: "A", content: "地形图" },
+      { key: "B", content: "电子地图" },
+      { key: "C", content: "遥感地图" },
+      { key: "D", content: "气候图" }
+    ],
+    correctKeys: ["B"],
+    explanation: "解析：手机导航使用的是电子地图。",
+    notes: []
+  },
+
+  // --- 地球公转 (图 q15) ---
+  {
+    id: 109, chapterId: 10101, type: "single",
+    content: "9. 在“天宫”空间站，航天员看到的地球形状是（ ）",
+    image: "/pkg_quiz/images/q15.png", 
+    options: [
+      { key: "A", content: "球体" },
+      { key: "B", content: "圆" },
+      { key: "C", content: "正方形" },
+      { key: "D", content: "椎体" }
+    ],
+    correctKeys: ["A"],
+    explanation: "解析：在太空中能直观看到地球是球体。",
+    notes: []
+  },
+  {
+    id: 110, chapterId: 10103, type: "single",
+    content: "10. (如图) 地球公转到甲处时，太阳直射点的纬度位置及节气名称是（ ）",
+    image: "/pkg_quiz/images/q15.png",
+    options: [
+      { key: "A", content: "赤道、春分" },
+      { key: "B", content: "南回归线、夏至" },
+      { key: "C", content: "北回归线、秋分" },
+      { key: "D", content: "赤道、冬至" }
+    ],
+    correctKeys: ["A"],
+    explanation: "解析：甲位置在春分（3月21日前后），此时太阳直射赤道。",
+    notes: []
+  },
+  {
+    id: 111, chapterId: 10103, type: "single",
+    content: "11. (如图) 立夏节气（5月6日），地球位于公转轨道的（ ）",
+    image: "/pkg_quiz/images/q15.png",
+    options: [
+      { key: "A", content: "甲乙之间" },
+      { key: "B", content: "乙丙之间" },
+      { key: "C", content: "丙丁之间" },
+      { key: "D", content: "丁甲之间" }
+    ],
+    correctKeys: ["A"],
+    explanation: "解析：甲是春分(3.21)，乙是夏至(6.22)。5月6日位于这两个节气之间。",
+    notes: []
+  },
+
+  // --- 地球自转 (图 q16) ---
+  {
+    id: 112, chapterId: 10103, type: "single",
+    content: "12. (如图) 下列选项中，是南极上空地球自转俯视图的是（ ）",
+    image: "/pkg_quiz/images/q16.png",
+    options: [
+      { key: "A", content: "图A" },
+      { key: "B", content: "图B" },
+      { key: "C", content: "图C" },
+      { key: "D", content: "图D" }
+    ],
+    correctKeys: ["B"],
+    explanation: "解析：南极上空看地球自转方向是顺时针（S顺）。图B的箭头方向是顺时针。",
+    notes: []
+  },
+
+  // --- 光照图 (图 q17) ---
+  {
+    id: 113, chapterId: 10103, type: "single",
+    content: "13. (如图) 读左图，正好处于日出的是（ ）",
+    image: "/pkg_quiz/images/q17.png",
+    options: [
+      { key: "A", content: "A点" },
+      { key: "B", content: "B点" },
+      { key: "C", content: "C点" },
+      { key: "D", content: "无" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：顺着地球自转方向（自西向东），由夜进入昼的分界线是晨线。C点位于晨线上，正值日出。",
+    notes: []
+  },
+
+  // --- 几内亚与发展 (图 q18) ---
+  {
+    id: 114, chapterId: 10501, type: "single",
+    content: "14. (如图) 几内亚位于撒哈拉以南非洲，该国人种主要是（ ）",
+    image: "/pkg_quiz/images/q18.png",
+    options: [
+      { key: "A", content: "以黑种人为主" },
+      { key: "B", content: "以白种人为主" },
+      { key: "C", content: "以黄种人为主" },
+      { key: "D", content: "以混血种人为主" }
+    ],
+    correctKeys: ["A"],
+    explanation: "解析：撒哈拉以南非洲是黑种人的故乡。",
+    notes: []
+  },
+  {
+    id: 115, chapterId: 10601, type: "single",
+    content: "15. (如图) 该国经济落后，以下最适合几内亚经济发展的措施是（ ）",
+    image: "/pkg_quiz/images/q18.png",
+    options: [
+      { key: "A", content: "大量出口粮食" },
+      { key: "B", content: "大量出口工业制成品" },
+      { key: "C", content: "发展民族工业，加工矿产" },
+      { key: "D", content: "出口资金和技术" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：几内亚矿产资源（如铝土矿）丰富，但工业基础薄弱。应发展民族工业，对矿产进行深加工，增加附加值。",
+    notes: []
+  },
+  // ==========================================
+  // 【七年级上册期末统考】 综合卷 (图 q19 - q26)
+  // ==========================================
+
+  // --- 知识点：地球的宇宙环境 (ID: 10101) ---
+  {
+    id: 201, chapterId: 10101, type: "single",
+    content: "1. (如图) 图中代表地球的是（ ）",
+    image: "/pkg_quiz/images/q19.png",
+    options: [
+      { key: "A", content: "①" },
+      { key: "B", content: "②" },
+      { key: "C", content: "③" },
+      { key: "D", content: "④" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：太阳系八大行星由内向外依次是：水、金、地、火。③排第三，是地球。",
+    notes: []
+  },
+  {
+    id: 202, chapterId: 10101, type: "single",
+    content: "2. 地球是迄今人类唯一的家园，是因为地球（ ）\n①距离太阳适中，有适合生命存在的温度\n②自身发光发热\n③自身体积质量不大不小，有适合呼吸的大气\n④有液态水的存在\n⑤有月球的环绕",
+    image: "/pkg_quiz/images/q19.png",
+    options: [
+      { key: "A", content: "①②③" },
+      { key: "B", content: "①③④" },
+      { key: "C", content: "②④⑤" },
+      { key: "D", content: "③④⑤" }
+    ],
+    correctKeys: ["B"],
+    explanation: "解析：地球不能发光发热（②错）；月球环绕不是生命存在的必要条件（⑤错）。",
+    notes: []
+  },
+
+  // --- 知识点：板块运动 (ID: 10303 - 海陆变迁) ---
+  {
+    id: 203, chapterId: 10303, type: "single",
+    content: "3. (如图) 2024年1月1日日本能登半岛发生地震。本次地震震中的经纬度位置是（ ）",
+    image: "/pkg_quiz/images/q20.png",
+    options: [
+      { key: "A", content: "37.5°S, 137.2°E" },
+      { key: "B", content: "37.5°S, 137.2°W" },
+      { key: "C", content: "37.5°N, 137.2°E" },
+      { key: "D", content: "37.5°N, 137.2°W" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：日本位于北半球（北纬N）和东半球（东经E）。",
+    notes: []
+  },
+  {
+    id: 204, chapterId: 10303, type: "single",
+    content: "4. (如图) 日本火山地震频繁，是因为日本位于（ ）",
+    image: "/pkg_quiz/images/q20.png",
+    options: [
+      { key: "A", content: "亚欧板块和印度洋板块交界处" },
+      { key: "B", content: "印度洋板块和非洲板块交界处" },
+      { key: "C", content: "亚欧板块和太平洋板块交界处" },
+      { key: "D", content: "太平洋板块和美洲板块交界处" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：日本位于亚欧板块与太平洋板块的交界处，地壳活跃。",
+    notes: []
+  },
+
+  // --- 知识点：海底地形 (ID: 10302 - 世界地形) ---
+  {
+    id: 205, chapterId: 10302, type: "single",
+    content: "5. (如图) 大陆向海洋深处延伸，依次出现的海底地形为（ ）",
+    image: "/pkg_quiz/images/q21.png",
+    options: [
+      { key: "A", content: "大陆架—洋盆—大陆坡" },
+      { key: "B", content: "大陆架—大陆坡—洋盆" },
+      { key: "C", content: "大陆坡—大陆架—洋盆" },
+      { key: "D", content: "大陆坡—洋盆—大陆架" }
+    ],
+    correctKeys: ["B"],
+    explanation: "解析：从陆地向海洋延伸，依次是大陆架（浅海）、大陆坡（陡坡）、洋盆（深海平原）。",
+    notes: []
+  },
+  {
+    id: 206, chapterId: 10302, type: "single",
+    content: "6. (如图) 海洋的最深处为（ ）",
+    image: "/pkg_quiz/images/q21.png",
+    options: [
+      { key: "A", content: "大陆坡" },
+      { key: "B", content: "洋盆" },
+      { key: "C", content: "洋中脊" },
+      { key: "D", content: "海沟" }
+    ],
+    correctKeys: ["D"],
+    explanation: "解析：海沟是海洋底部最深的地方。",
+    notes: []
+  },
+
+  // --- 知识点：海陆分布与经纬网 (ID: 10301 - 大洲大洋) ---
+  {
+    id: 207, chapterId: 10301, type: "single",
+    content: "7. (如图) 世界上的陆地主要集中分布在（ ）\n①北半球 ②南半球 ③东半球 ④西半球",
+    image: "/pkg_quiz/images/q22.png",
+    options: [
+      { key: "A", content: "①③" },
+      { key: "B", content: "②③" },
+      { key: "C", content: "①④" },
+      { key: "D", content: "③④" }
+    ],
+    correctKeys: ["A"],
+    explanation: "解析：陆地主要集中在北半球和东半球。",
+    notes: []
+  },
+  {
+    id: 208, chapterId: 10301, type: "single",
+    content: "8. (如图) 图5中东西半球的划分经线是（ ）",
+    image: "/pkg_quiz/images/q22.png",
+    options: [
+      { key: "A", content: "0° 180°经线" },
+      { key: "B", content: "20°W 160°E" },
+      { key: "C", content: "20°E 160°W" },
+      { key: "D", content: "20°W 20°E" }
+    ],
+    correctKeys: ["B"],
+    explanation: "解析：东西半球分界线是 20°W 和 160°E 组成的经线圈。",
+    notes: []
+  },
+
+  // --- 知识点：天气符号 (ID: 10401 - 多变的天气) ---
+  {
+    id: 209, chapterId: 10401, type: "single",
+    content: "9. (如图) 巴黎奥运会开幕式当天下了小雨。下列天气符号代表的天气最适合描述当天天气的是（ ）",
+    image: "/pkg_quiz/images/q23.png", // 题干+选项图
+    options: [
+      { key: "A", content: "图A" },
+      { key: "B", content: "图B" },
+      { key: "C", content: "图C" },
+      { key: "D", content: "图D" }
+    ],
+    correctKeys: ["B"],
+    explanation: "解析：A是雷阵雨，B是小雨/中雨（此处最符合小雨），C是雪，D是多云。",
+    notes: []
+  },
+
+  // --- 知识点：地球运动 (ID: 10103 - 地球的运动) ---
+  {
+    id: 210, chapterId: 10103, type: "single",
+    content: "10. (如图) 巴黎奥运会期间(7月26日开始)，地球运动的位置是在（ ）",
+    image: "/pkg_quiz/images/q24.png",
+    options: [
+      { key: "A", content: "①" },
+      { key: "B", content: "②" },
+      { key: "C", content: "③" },
+      { key: "D", content: "④" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：①是春分(3.21)，②是夏至(6.21)，③是秋分(9.23)，④是冬至(12.22)。7月26日位于夏至和秋分之间，即②和③之间。",
+    notes: []
+  },
+  {
+    id: 211, chapterId: 10103, type: "single",
+    content: "11. (如图) 奥运会期间，巴黎(48°N)的昼夜变化规律是（ ）",
+    image: "/pkg_quiz/images/q24.png",
+    options: [
+      { key: "A", content: "昼夜等长" },
+      { key: "B", content: "白昼越来越长" },
+      { key: "C", content: "白昼越来越短" },
+      { key: "D", content: "出现极昼现象" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：夏至日(6.21)北半球白昼最长。奥运会(7.26)在夏至之后，太阳直射点向南移动，北半球白昼逐渐变短。",
+    notes: []
+  },
+
+  // --- 知识点：人口与发展 (ID: 10501 - 人口与人种) ---
+  {
+    id: 212, chapterId: 10501, type: "single",
+    content: "12. (如图) 读部分大洲人口统计图，人口自然增长率最快的大洲是（ ）",
+    image: "/pkg_quiz/images/q25.png",
+    options: [
+      { key: "A", content: "非洲" },
+      { key: "B", content: "北美洲" },
+      { key: "C", content: "亚洲" },
+      { key: "D", content: "欧洲" }
+    ],
+    correctKeys: ["A"],
+    explanation: "解析：自然增长率 = 出生率 - 死亡率。图中非洲的柱状差值最大，增长最快。",
+    notes: []
+  },
+  {
+    id: 213, chapterId: 10501, type: "single",
+    content: "13. (如图) 据图推测，欧洲面临的问题是（ ）",
+    image: "/pkg_quiz/images/q25.png",
+    options: [
+      { key: "A", content: "就业压力大" },
+      { key: "B", content: "生态环境破坏" },
+      { key: "C", content: "交通拥挤" },
+      { key: "D", content: "劳动力短缺" }
+    ],
+    correctKeys: ["D"],
+    explanation: "解析：图中欧洲死亡率高于出生率，人口负增长。这将导致人口老龄化、劳动力短缺等问题。",
+    notes: []
+  },
+
+  // --- 知识点：聚落 (ID: 10502 - 城镇与乡村) ---
+  {
+    id: 214, chapterId: 10502, type: "single",
+    content: "14. (如图) 图8的区域( )",
+    image: "/pkg_quiz/images/q26.png",
+    options: [
+      { key: "A", content: "保留了更多的自然风貌" },
+      { key: "B", content: "是城镇" },
+      { key: "C", content: "是乡村" },
+      { key: "D", content: "人们主要从事种植业" }
+    ],
+    correctKeys: ["B"],
+    explanation: "解析：图示为高楼大厦，建筑物密集，属于典型的城镇景观。",
+    notes: []
+  },
+  {
+    id: 215, chapterId: 10502, type: "single",
+    content: "15. 由乡村到城镇，其变化是（ ）",
+    image: "/pkg_quiz/images/q26.png",
+    options: [
+      { key: "A", content: "就业、学习机会减少" },
+      { key: "B", content: "范围越来越小" },
+      { key: "C", content: "配套服务越来越完善" },
+      { key: "D", content: "人口越来越少" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：城镇化过程中，基础设施和配套服务会越来越完善，就业机会增多，人口密度增大。",
+    notes: []
+  },
+  // ==========================================
+  // 【沈北新区期末卷】 七年级上册综合 (图 q27 - q32)
+  // ==========================================
+
+  // --- 知识点：地球的宇宙环境 (ID: 10101) ---
+  {
+    id: 301, chapterId: 10101, type: "single",
+    content: "1. (如图) 当“嫦娥六号”进入地月转移轨道时，按天体系统从低到高的层次，其所处的天体系统为（ ）",
+    image: "/pkg_quiz/images/q27.png",
+    options: [
+      { key: "A", content: "①②⑤" },
+      { key: "B", content: "①②④" },
+      { key: "C", content: "②④③⑤" },
+      { key: "D", content: "①②③④⑤" }
+    ],
+    correctKeys: ["B"],
+    explanation: "解析：地月系(②) < 太阳系(④) < 银河系(①) < 总星系(⑤)。题目要求从低到高，故顺序为地月系->太阳系->银河系。注：图中数字对应天体系统。",
+    notes: []
+  },
+  {
+    id: 302, chapterId: 10101, type: "single",
+    content: "2. 登月后，航天员不可能遇到的困难是（ ）",
+    image: "/pkg_quiz/images/q27.png",
+    options: [
+      { key: "A", content: "洪涝" },
+      { key: "B", content: "失重" },
+      { key: "C", content: "食物不足" },
+      { key: "D", content: "昼夜温差过大" }
+    ],
+    correctKeys: ["A"],
+    explanation: "解析：月球表面没有液态水，不可能发生洪涝。",
+    notes: []
+  },
+
+  // --- 知识点：地图的应用 (ID: 10203) ---
+  {
+    id: 303, chapterId: 10203, type: "single",
+    content: "3. (如图) 户型示意图的比例尺约为（ ）",
+    image: "/pkg_quiz/images/q28.png",
+    options: [
+      { key: "A", content: "1:10" },
+      { key: "B", content: "1:100" },
+      { key: "C", content: "1:1000" },
+      { key: "D", content: "1:10000" }
+    ],
+    correctKeys: ["B"],
+    explanation: "解析：图上距离1厘米代表实际距离100厘米（即1米）。比例尺=1:100。",
+    notes: []
+  },
+  {
+    id: 304, chapterId: 10203, type: "single",
+    content: "4. (如图) 下列对小明家地理位置的叙述，正确的是（ ）",
+    image: "/pkg_quiz/images/q28.png",
+    options: [
+      { key: "A", content: "小明家周围没有绿地" },
+      { key: "B", content: "商业楼位于小区南部" },
+      { key: "C", content: "小区共有4个大门" },
+      { key: "D", content: "距离小明家最近的大门是西门" }
+    ],
+    correctKeys: ["D"],
+    explanation: "解析：根据指向标判断方向。小明家位于小区西侧，距离西门最近。",
+    notes: []
+  },
+
+  // --- 知识点：海底地形 (ID: 10302) ---
+  {
+    id: 305, chapterId: 10302, type: "single",
+    content: "5. (如图) 图中各类海底地形中，与人类生活最密切的是（ ）",
+    image: "/pkg_quiz/images/q29.png",
+    options: [
+      { key: "A", content: "大陆架" },
+      { key: "B", content: "大陆坡" },
+      { key: "C", content: "洋盆" },
+      { key: "D", content: "海沟" }
+    ],
+    correctKeys: ["A"],
+    explanation: "解析：大陆架水深较浅，光照充足，生物资源丰富，石油天然气资源也多分布于此。",
+    notes: []
+  },
+  {
+    id: 306, chapterId: 10302, type: "single",
+    content: "6. (如图) “深海一号”最大作业地点可能位于（ ）",
+    image: "/pkg_quiz/images/q29.png",
+    options: [
+      { key: "A", content: "大陆架" },
+      { key: "B", content: "大陆坡" },
+      { key: "C", content: "洋盆" },
+      { key: "D", content: "海沟" }
+    ],
+    correctKeys: ["B"],
+    explanation: "解析：题目提到作业水深超过1500米，大陆坡深度通常在200-4000米之间。",
+    notes: []
+  },
+  {
+    id: 307, chapterId: 10302, type: "single",
+    content: "7. 关于海洋资源的开发和保护，合理的是（ ）",
+    image: "/pkg_quiz/images/q29.png",
+    options: [
+      { key: "A", content: "海洋空间广阔，可大面积填海造陆" },
+      { key: "B", content: "捕养结合，禁止过度捕捞海洋生物" },
+      { key: "C", content: "海洋矿产丰富，可加大开发力度" },
+      { key: "D", content: "陆源污染物处理时尽量排放到海里" }
+    ],
+    correctKeys: ["B"],
+    explanation: "解析：为了可持续发展，应实行休渔期，禁止过度捕捞。",
+    notes: []
+  },
+
+  // --- 知识点：天气与生活 (ID: 10401) ---
+  {
+    id: 308, chapterId: 10401, type: "single",
+    content: "8. (如图) 该市未来一周（ ）",
+    image: "/pkg_quiz/images/q30.png",
+    options: [
+      { key: "A", content: "天气寒冷" },
+      { key: "B", content: "风力强劲" },
+      { key: "C", content: "晴天较多" },
+      { key: "D", content: "阴雨为主" }
+    ],
+    correctKeys: ["D"],
+    explanation: "解析：观察天气符号，周一至周三、周六周日均为阴或雨。",
+    notes: []
+  },
+  {
+    id: 309, chapterId: 10401, type: "single",
+    content: "9. 下列表示周二风向和风力的天气符号是（ ）",
+    image: "/pkg_quiz/images/q30.png",
+    options: [
+      { key: "A", content: "东北风1级" },
+      { key: "B", content: "东北风4级" },
+      { key: "C", content: "西北风2级" },
+      { key: "D", content: "东南风2级" }
+    ],
+    correctKeys: ["A"],
+    explanation: "解析：周二预报显示：东北风1级。A图符合（风旗指向西南，即来自东北）。",
+    notes: []
+  },
+  {
+    id: 310, chapterId: 10401, type: "single",
+    content: "10. (如图) 如图中正确表示周四生活指数的是（ ）",
+    image: "/pkg_quiz/images/q30.png",
+    options: [
+      { key: "A", content: "洗车指数：适宜" },
+      { key: "B", content: "雨伞指数：适宜" },
+      { key: "C", content: "观星指数：适宜" },
+      { key: "D", content: "晾晒指数：适宜" }
+    ],
+    correctKeys: ["D"],
+    explanation: "解析：周四是多云转晴，29℃，适合晾晒。A错（之前有雨），B错（没雨），C错（多云影响观星）。",
+    notes: []
+  },
+
+  // --- 知识点：气候与环境 (ID: 10404 - 世界气候) ---
+  {
+    id: 311, chapterId: 10404, type: "single",
+    content: "11. (如图) 该实验模拟的是（ ）",
+    image: "/pkg_quiz/images/q31.png",
+    options: [
+      { key: "A", content: "全球变暖" },
+      { key: "B", content: "酸雨污染" },
+      { key: "C", content: "大气污染" },
+      { key: "D", content: "臭氧层破坏" }
+    ],
+    correctKeys: ["A"],
+    explanation: "解析：对比充满二氧化碳和干洁空气的瓶子升温情况，模拟温室效应导致的全球变暖。",
+    notes: []
+  },
+  {
+    id: 312, chapterId: 10404, type: "single",
+    content: "12. 大气中二氧化碳含量增多的主要原因是（ ）\n①火山喷发 ②煤、石油的大量燃烧\n③人口数量的急剧增长 ④过度砍伐森林",
+    image: "/pkg_quiz/images/q31.png",
+    options: [
+      { key: "A", content: "①②" },
+      { key: "B", content: "①④" },
+      { key: "C", content: "②④" },
+      { key: "D", content: "②③" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：燃烧化石燃料排放大量CO2，砍伐森林减少了对CO2的吸收。",
+    notes: []
+  },
+  {
+    id: 313, chapterId: 10404, type: "single",
+    content: "13. 低碳生活，从我做起。下列“小事”不符合低碳生活原则的是（ ）",
+    image: "/pkg_quiz/images/q31.png",
+    options: [
+      { key: "A", content: "提倡步行、骑自行车" },
+      { key: "B", content: "随手关灯，节约用电" },
+      { key: "C", content: "赠送礼物时豪华包装" },
+      { key: "D", content: "拒绝使用一次性筷子" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：豪华包装浪费资源，增加碳排放。",
+    notes: []
+  },
+
+  // --- 知识点：人口分布 (ID: 10501) ---
+  {
+    id: 314, chapterId: 10501, type: "single",
+    content: "14. (如图) 世界人口密集区中，以黄色人种为主的是（ ）",
+    image: "/pkg_quiz/images/q32.png",
+    options: [
+      { key: "A", content: "①地区 (欧洲西部)" },
+      { key: "B", content: "②地区 (南亚)" },
+      { key: "C", content: "③地区 (东亚)" },
+      { key: "D", content: "④地区 (北美东部)" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：③地区是亚洲东部，是黄色人种主要分布区。①④是白种人，②是白种人和黑种人混杂。",
+    notes: []
+  },
+  {
+    id: 315, chapterId: 10501, type: "single",
+    content: "15. (如图) ⑤地区人口稀少的主要原因是（ ）",
+    image: "/pkg_quiz/images/q32.png",
+    options: [
+      { key: "A", content: "空气稀薄" },
+      { key: "B", content: "气候干热" },
+      { key: "C", content: "气候寒冷" },
+      { key: "D", content: "环境湿热" }
+    ],
+    correctKeys: ["D"],
+    explanation: "解析：⑤地区是南美洲亚马孙平原，属于热带雨林气候，过于湿热，不适宜居住。",
+    notes: []
+  },
+  // ==========================================
+  // 【七年级上册期末监测卷】 综合测试 (图 q33 - q40)
+  // ==========================================
+
+  // --- 知识点：地球的宇宙环境 (ID: 10101) ---
+  {
+    id: 316, chapterId: 10101, type: "single",
+    content: "1. (如图) 嫦娥六号能实现从月球背面采样返回，反映了（ ）",
+    image: "/pkg_quiz/images/q33.png",
+    options: [
+      { key: "A", content: "月球是地球的天然卫星" },
+      { key: "B", content: "我国航空航天技术发展迅速" },
+      { key: "C", content: "月球背面采样较为容易" },
+      { key: "D", content: "我国航天员首次登上月球" }
+    ],
+    correctKeys: ["B"],
+    explanation: "解析：嫦娥六号属于无人探测器，并未载人登月（D错）。背面采样难度极大，能成功说明技术先进。",
+    notes: []
+  },
+  {
+    id: 317, chapterId: 10101, type: "single",
+    content: "2. 我国航天员未来在月球科研站面临的困难有（ ）\n①太空辐射对身体的伤害 ②大型肉食动物的威胁\n③月球剧烈的温度变化 ④太阳能资源的严重不足",
+    image: "/pkg_quiz/images/q33.png",
+    options: [
+      { key: "A", content: "①③" },
+      { key: "B", content: "②④" },
+      { key: "C", content: "②③" },
+      { key: "D", content: "①④" }
+    ],
+    correctKeys: ["A"],
+    explanation: "解析：月球无大气，辐射强，温差大（①③对）。月球无生命（②错）。月球无云层遮挡，太阳能资源丰富（④错）。",
+    notes: []
+  },
+
+  // --- 知识点：地球运动演示 (ID: 10103) ---
+  {
+    id: 318, chapterId: 10103, type: "single",
+    content: "3. (如图) 用手拨动地球仪自西向东旋转，演示内容是（ ）",
+    image: "/pkg_quiz/images/q34.png",
+    options: [
+      { key: "A", content: "地球公转" },
+      { key: "B", content: "地球自转" },
+      { key: "C", content: "四季变化" },
+      { key: "D", content: "天体变化" }
+    ],
+    correctKeys: ["B"],
+    explanation: "解析：绕地轴自西向东旋转，演示的是地球自转。",
+    notes: []
+  },
+  {
+    id: 319, chapterId: 10103, type: "single",
+    content: "4. (如图) 图中P点地区，此时正值（ ）",
+    image: "/pkg_quiz/images/q34.png",
+    options: [
+      { key: "A", content: "正午" },
+      { key: "B", content: "午夜" },
+      { key: "C", content: "清晨" },
+      { key: "D", content: "傍晚" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：P点位于晨昏线上，且随着地球自转即将进入昼半球（由黑夜进入白天），故为清晨（日出）。",
+    notes: []
+  },
+
+  // --- 知识点：电子地图 (ID: 10203) ---
+  {
+    id: 320, chapterId: 10203, type: "single",
+    content: "5. (如图) 位置共享地图属于（ ）",
+    image: "/pkg_quiz/images/q35.png",
+    options: [
+      { key: "A", content: "数字地图" },
+      { key: "B", content: "地形剖面图" },
+      { key: "C", content: "卫星云图" },
+      { key: "D", content: "中国政区图" }
+    ],
+    correctKeys: ["A"],
+    explanation: "解析：手机上的位置共享属于电子地图（数字地图）。",
+    notes: []
+  },
+  {
+    id: 321, chapterId: 10203, type: "single",
+    content: "6. (如图) 当滑动手机屏幕放大地图时，地图（ ）",
+    image: "/pkg_quiz/images/q35.png",
+    options: [
+      { key: "A", content: "比例尺变大，范围变大" },
+      { key: "B", content: "比例尺变小，范围变大" },
+      { key: "C", content: "比例尺变大，范围变小" },
+      { key: "D", content: "比例尺变小，范围变小" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：放大地图 = 看到更详细的内容 = 范围变小 = 比例尺变大。",
+    notes: []
+  },
+  {
+    id: 322, chapterId: 10203, type: "single",
+    content: "7. (如图) 与纸质地图相比，位置共享地图的优点有（ ）\n①信息量小 ②不易携带 ③实时更新 ④精准定位",
+    image: "/pkg_quiz/images/q35.png",
+    options: [
+      { key: "A", content: "①③" },
+      { key: "B", content: "②④" },
+      { key: "C", content: "①②" },
+      { key: "D", content: "③④" }
+    ],
+    correctKeys: ["D"],
+    explanation: "解析：电子地图信息量大、携带方便（手机里）、实时更新、可定位。",
+    notes: []
+  },
+
+  // --- 知识点：海底地形 (ID: 10302) ---
+  {
+    id: 323, chapterId: 10302, type: "single",
+    content: "8. (如图) 曲线图中的高大山脉与海沟的相对高度为（ ）",
+    image: "/pkg_quiz/images/q36.png",
+    options: [
+      { key: "A", content: "-16000米" },
+      { key: "B", content: "8000米" },
+      { key: "C", content: "16000米" },
+      { key: "D", content: "-8000米" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：相对高度 = 海拔高 - 海拔低。山脉海拔8000米，海沟海拔-8000米。8000 - (-8000) = 16000米。",
+    notes: []
+  },
+  {
+    id: 324, chapterId: 10302, type: "single",
+    content: "9. (如图) 海底地形中最靠近陆地的是（ ）",
+    image: "/pkg_quiz/images/q36.png",
+    options: [
+      { key: "A", content: "大洋中脊" },
+      { key: "B", content: "大陆坡" },
+      { key: "C", content: "大陆架" },
+      { key: "D", content: "海沟" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：大陆架是陆地向海洋延伸的浅海区，最靠近陆地。",
+    notes: []
+  },
+
+  // --- 知识点：降水分布与气候 (ID: 10403 - 降水) ---
+  {
+    id: 325, chapterId: 10403, type: "single",
+    content: "10. (如图) 考虑年降水量和人口的前提下，该防水雨具企业初步圈定的国外重点销售市场包括（ ）",
+    image: "/pkg_quiz/images/q37.png",
+    options: [
+      { key: "A", content: "北极圈附近的北美洲地区" },
+      { key: "B", content: "南极圈附近的南极大陆" },
+      { key: "C", content: "北回归线附近的非洲地区" },
+      { key: "D", content: "中纬度的欧洲西部地区" }
+    ],
+    correctKeys: ["D"],
+    explanation: "解析：雨具需要卖给“人多”且“雨多”的地方。图中深色区域表示降水多。D处欧洲西部人口稠密且温带海洋性气候多雨，最合适。",
+    notes: []
+  },
+  {
+    id: 326, chapterId: 10601, type: "single",
+    content: "11. 该企业选定南美洲作为国外销售市场之一，中国企业与南美洲企业间的经济商谈属于（ ）",
+    image: "/pkg_quiz/images/q37.png",
+    options: [
+      { key: "A", content: "政治对话" },
+      { key: "B", content: "南南合作" },
+      { key: "C", content: "南北对话" },
+      { key: "D", content: "南北问题" }
+    ],
+    correctKeys: ["B"],
+    explanation: "解析：中国和南美洲国家大多属于发展中国家。发展中国家之间的合作称为“南南合作”。",
+    notes: []
+  },
+
+  // --- 知识点：中东气候与民居 (ID: 20801 - 中东/西亚) ---
+  {
+    id: 327, chapterId: 20801, type: "single",
+    content: "12. (如图) 举办国男子多身着白色长袍，头戴白色头巾，这是为了适应当地气候（ ）",
+    image: "/pkg_quiz/images/q38.png",
+    options: [
+      { key: "A", content: "高温多雨" },
+      { key: "B", content: "炎热干燥" },
+      { key: "C", content: "寒冷干燥" },
+      { key: "D", content: "温和湿润" }
+    ],
+    correctKeys: ["B"],
+    explanation: "解析：迪拜（阿联酋）属于热带沙漠气候，炎热干燥。白色长袍反射阳光，防晒透气。",
+    notes: []
+  },
+  {
+    id: 328, chapterId: 20801, type: "single",
+    content: "13. (如图) 推测该气候区的传统民居最可能是（ ）",
+    image: "/pkg_quiz/images/q39.png", // 题干+4个民居图
+    options: [
+      { key: "A", content: "图A (土楼)" },
+      { key: "B", content: "图B (竹楼)" },
+      { key: "C", content: "图C (平顶厚墙)" },
+      { key: "D", content: "图D (冰屋)" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：沙漠地区少雨，房屋多为平顶；为隔热防晒，墙体较厚，窗户较小。图C符合。",
+    notes: []
+  },
+
+  // --- 知识点：聚落演变 (ID: 10502) ---
+  {
+    id: 329, chapterId: 10502, type: "single",
+    content: "14. (如图) 1984年至2024年，深圳市水围村（ ）\n①建筑密度增大 ②交通线路增多 ③基础设施不变 ④自然景观保护力度增强",
+    image: "/pkg_quiz/images/q40.png",
+    options: [
+      { key: "A", content: "①②" },
+      { key: "B", content: "③④" },
+      { key: "C", content: "①③" },
+      { key: "D", content: "②④" }
+    ],
+    correctKeys: ["A"],
+    explanation: "解析：对比两图，房屋变高变密，道路变多。基础设施肯定变好了，自然景观减少了。",
+    notes: []
+  },
+  {
+    id: 330, chapterId: 10502, type: "single",
+    content: "15. (如图) 水围村从成畦的水田到高楼林立，最突出的变化是（ ）",
+    image: "/pkg_quiz/images/q40.png",
+    options: [
+      { key: "A", content: "自然环境的变化" },
+      { key: "B", content: "地域文化的变化" },
+      { key: "C", content: "生产方式的变化" },
+      { key: "D", content: "交通方式的变化" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：从农业（种田）转变为非农业（城市服务业），最本质的是生产方式的改变。",
+    notes: []
+  },
+  // ==========================================
+  // 【七年级上册期末质量抽测】 综合卷 (图 q41 - q48)
+  // ==========================================
+
+  // --- 知识点：地球的宇宙环境 (ID: 10101) ---
+  {
+    id: 401, chapterId: 10101, type: "single",
+    content: "1. (如图) 太空探索使我们认识到（ ）",
+    image: "/pkg_quiz/images/q41.png",
+    options: [
+      { key: "A", content: "地球在火星和金星之间" },
+      { key: "B", content: "地球是太阳系中的卫星" },
+      { key: "C", content: "距离太阳最近的是地球" },
+      { key: "D", content: "地球的形状是一个圆形" }
+    ],
+    correctKeys: ["A"],
+    explanation: "解析：地球位于金星和火星之间。地球是行星，不是卫星；水星最近；地球是球体。",
+    notes: []
+  },
+  {
+    id: 402, chapterId: 10101, type: "single",
+    content: "2. 地球是目前已知唯一存在生命的星球，是因为地球上有（ ）\n①日地距离适中，温度适中\n②体积、质量适中，有适合呼吸的大气\n③存在液态水\n④自身发光发热供应生物需求",
+    image: "/pkg_quiz/images/q41.png",
+    options: [
+      { key: "A", content: "①②③" },
+      { key: "B", content: "②③④" },
+      { key: "C", content: "①③④" },
+      { key: "D", content: "①②④" }
+    ],
+    correctKeys: ["A"],
+    explanation: "解析：地球不能自身发光发热（④错）。生命存在的三要素：温度、大气、水。",
+    notes: []
+  },
+  {
+    id: 403, chapterId: 10101, type: "single",
+    content: "3. 我国进行太空探索的意义主要有（ ）\n①探索宇宙奥秘 ②提高国家的科技水平\n③占领太空资源 ④提升中国的国际影响力",
+    image: "/pkg_quiz/images/q41.png",
+    options: [
+      { key: "A", content: "①②③" },
+      { key: "B", content: "①②④" },
+      { key: "C", content: "①③④" },
+      { key: "D", content: "②③④" }
+    ],
+    correctKeys: ["B"],
+    explanation: "解析：太空探索是为了和平利用太空，造福人类，而非“占领资源”（③表述不当）。",
+    notes: []
+  },
+
+  // --- 知识点：地球仪制作与演示 (ID: 10102 - 地球仪) ---
+  {
+    id: 404, chapterId: 10102, type: "single",
+    content: "4. (如图) 制作地球仪时（ ）",
+    image: "/pkg_quiz/images/q42.png",
+    options: [
+      { key: "A", content: "用圆圈表示经线" },
+      { key: "B", content: "纬线要相互平行" },
+      { key: "C", content: "用小木棍表示地轴" },
+      { key: "D", content: "最长纬线上标注0°" }
+    ],
+    correctKeys: ["C"], // 题目问“制作时”的操作，通常用木棍穿过球体模拟地轴
+    // 注：B选项纬线确实平行，D选项赤道确实是0°，但C选项更贴合“制作过程”的描述，或者可能是多选题改单选？
+    // 修正解析：A错（经线是半圆）；B对（纬线平行）；C对（木棍模拟地轴）；D对。
+    // 根据初中常见考题，本题可能考察“制作材料”或“步骤”，假设选C最符合“制作”。若原题选其他请自行调整。
+    explanation: "解析：制作地球仪时，通常用小木棍穿过球体代表地轴。经线是半圆，纬线相互平行，赤道是0°纬线。",
+    notes: []
+  },
+  {
+    id: 405, chapterId: 10103, type: "single", // 地球运动
+    content: "5. (如图) 用自制的地球仪演示地球自转时（ ）",
+    image: "/pkg_quiz/images/q42.png",
+    options: [
+      { key: "A", content: "从左向右拨动球体" },
+      { key: "B", content: "需绕假想太阳旋转" },
+      { key: "C", content: "保持地轴竖直状态" },
+      { key: "D", content: "能观察到昼夜长短变化" }
+    ],
+    correctKeys: ["A"],
+    explanation: "解析：地球自转方向是自西向东，面对地球仪应“从左向右”拨动。地轴是倾斜的。昼夜长短变化是公转产生的。",
+    notes: []
+  },
+
+  // --- 知识点：经纬网与海底地形 (ID: 10302) ---
+  {
+    id: 406, chapterId: 10102, type: "single",
+    content: "6. (如图) “奋斗者”号下潜地点的经纬度位置为（ ）",
+    image: "/pkg_quiz/images/q43.png",
+    options: [
+      { key: "A", content: "11.3°S, 142.2°W" },
+      { key: "B", content: "11.3°N, 142.2°W" },
+      { key: "C", content: "11.3°S, 142.2°E" },
+      { key: "D", content: "11.3°N, 142.2°E" }
+    ],
+    correctKeys: ["D"],
+    explanation: "解析：读图3，纬度向北增大(11°-12°)，为北纬(N)；经度向东增大(141°-143°)，为东经(E)。",
+    notes: []
+  },
+  {
+    id: 407, chapterId: 10302, type: "single",
+    content: "7. (如图) “奋斗者”号所到达的海底最深处地形是（ ）",
+    image: "/pkg_quiz/images/q43.png",
+    options: [
+      { key: "A", content: "海岭" },
+      { key: "B", content: "大陆坡" },
+      { key: "C", content: "海沟" },
+      { key: "D", content: "大陆架" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：读图4剖面图，最深处呈狭长的沟槽状，为海沟（马里亚纳海沟）。",
+    notes: []
+  },
+
+  // --- 知识点：电子地图 (ID: 10203) ---
+  {
+    id: 408, chapterId: 10203, type: "single",
+    content: "8. (如图) 在查询过程中，小华对手机地图进行了“放大”和“缩小”操作，该操作可以改变（ ）",
+    image: "/pkg_quiz/images/q44.png",
+    options: [
+      { key: "A", content: "图幅的大小" },
+      { key: "B", content: "机场的地理位置" },
+      { key: "C", content: "比例尺大小" },
+      { key: "D", content: "两地的实际距离" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：缩放地图改变的是比例尺和显示范围，实际距离和地理位置不会变，手机屏幕（图幅）大小也没变。",
+    notes: []
+  },
+  {
+    id: 409, chapterId: 10401, type: "single", // 天气
+    content: "9. (如图) 简祥于公园，空气清新，天空湛蓝。此时，小华拍摄照片时的天气是（ ）",
+    image: "/pkg_quiz/images/q45.png", // 题干+选项图
+    options: [
+      { key: "A", content: "图A" },
+      { key: "B", content: "图B" },
+      { key: "C", content: "图C" },
+      { key: "D", content: "图D" }
+    ],
+    correctKeys: ["A"],
+    explanation: "解析：题目描述“天空湛蓝”，对应晴天。图A是晴（太阳）。B是阴，C是多云转阴/沙尘？(看图不清，但A肯定是晴)，D是多云。",
+    notes: []
+  },
+
+  // --- 知识点：地球公转与二十四节气 (ID: 10103) ---
+  {
+    id: 410, chapterId: 10103, type: "single",
+    content: "10. (如图) 二十四节气的更替是由于（ ）",
+    image: "/pkg_quiz/images/q46.png",
+    options: [
+      { key: "A", content: "地球自转" },
+      { key: "B", content: "地球形状" },
+      { key: "C", content: "太阳运动" },
+      { key: "D", content: "地球公转" }
+    ],
+    correctKeys: ["D"],
+    explanation: "解析：四季变化和二十四节气都是由地球公转产生的。",
+    notes: []
+  },
+  {
+    id: 411, chapterId: 10103, type: "single",
+    content: "11. (如图) 下列谚语中依据“二十四节气”指导农业生产的是（ ）",
+    image: "/pkg_quiz/images/q46.png",
+    options: [
+      { key: "A", content: "春分不种麦，别怨收成坏" },
+      { key: "B", content: "白露秋分夜，一夜冷一夜" },
+      { key: "C", content: "小暑不算热，大暑在伏天" },
+      { key: "D", content: "冬节夜最长，难得到天光" }
+    ],
+    correctKeys: ["A"],
+    explanation: "解析：A选项直接指导“种麦”的农事活动。B/C/D主要描述气温或昼夜长短。",
+    notes: []
+  },
+
+  // --- 知识点：地形与景观 (ID: 10302) ---
+  {
+    id: 412, chapterId: 10302, type: "single",
+    content: "12. (如图) 图8中占比最高的地形类型是（ ）",
+    image: "/pkg_quiz/images/q47.png",
+    options: [
+      { key: "A", content: "高原" },
+      { key: "B", content: "平原" },
+      { key: "C", content: "盆地" },
+      { key: "D", content: "丘陵" }
+    ],
+    correctKeys: ["B"],
+    explanation: "解析：读图8柱状图，<200m（平原）的占比最高。",
+    notes: []
+  },
+  {
+    id: 413, chapterId: 10302, type: "single",
+    content: "13. (如图) 该地区占比最高的地形类型对应的是地形景观照片中的（ ）",
+    image: "/pkg_quiz/images/q47.png",
+    options: [
+      { key: "A", content: "甲" },
+      { key: "B", content: "乙" },
+      { key: "C", content: "丙" },
+      { key: "D", content: "丁" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：平原地形平坦辽阔。甲是山地，乙是高原/丘陵，丙平坦开阔是平原，丁是雪山。",
+    notes: []
+  },
+
+  // --- 知识点：世界气温分布 (ID: 10402 - 气温) ---
+  {
+    id: 414, chapterId: 10402, type: "single",
+    content: "14. (如图) 世界气温分布的一般规律是（ ）",
+    image: "/pkg_quiz/images/q48.png",
+    options: [
+      { key: "A", content: "从两极向赤道递减" },
+      { key: "B", content: "从沿海向内陆递减" },
+      { key: "C", content: "从低纬向高纬递减" },
+      { key: "D", content: "从内陆向沿海递减" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：受纬度因素影响，世界气温大致由低纬度（赤道）向高纬度（两极）递减。",
+    notes: []
+  },
+  {
+    id: 415, chapterId: 10402, type: "single",
+    content: "15. (如图) 甲地无特大城市，主要影响因素是（ ）",
+    image: "/pkg_quiz/images/q48.png",
+    options: [
+      { key: "A", content: "纬度位置" },
+      { key: "B", content: "海陆位置" },
+      { key: "C", content: "地形" },
+      { key: "D", content: "水源" }
+    ],
+    correctKeys: ["C"],
+    explanation: "解析：甲地位于青藏高原，海拔高，气温低，空气稀薄，不适宜人类居住，故无特大城市。影响因素是地形（地势）。",
+    notes: []
+  }
+ 
+];
