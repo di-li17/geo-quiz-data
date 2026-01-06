@@ -41,7 +41,7 @@
       { "key": "A", "content": "科学技术的进步" },
       { "key": "B", "content": "生活水平的提高" },
       { "key": "C", "content": "世界人口的增长" },
-      { "key": "D", "content: "国际组织的支持" }
+      { "key": "D", "content": "国际组织的支持" }
     ],
     "correctKeys": ["A"],
     "explanation": "解析：航天事业的发展主要依赖于国家综合国力的增强和科学技术的进步。",
@@ -713,7 +713,7 @@
       { "key": "A", "content": "大量出口粮食" },
       { "key": "B", "content": "大量出口工业制成品" },
       { "key": "C", "content": "发展民族工业，加工矿产" },
-      { "key": "D", "content: "出口资金和技术" }
+      { "key": "D", "content": "出口资金和技术" }
     ],
     "correctKeys": ["C"],
     "explanation": "解析：几内亚矿产资源（如铝土矿）丰富，但工业基础薄弱。应发展民族工业，对矿产进行深加工，增加附加值。",
@@ -1129,7 +1129,7 @@
       { "key": "A", "content": "春分不种麦，别怨收成坏" },
       { "key": "B", "content": "白露秋分夜，一夜冷一夜" },
       { "key": "C", "content": "小暑不算热，大暑在伏天" },
-      { "key": "D", content: "冬节夜最长，难得到天光" }
+      { "key": "D", "content": "冬节夜最长，难得到天光" }
     ],
     "correctKeys": ["A"],
     "explanation": "解析：A选项直接指导“种麦”的农事活动。B/C/D主要描述气温或昼夜长短。",
