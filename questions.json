@@ -1,5 +1,69 @@
 [
   {
+    "id": 1,
+    "chapterId": 10101,
+    "type": "single",
+    "content": "5. 【读图题】下图是老师展示的一组图片，图中不属于人类对太空探索活动的是（ ）",
+    "image": "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q5.png",
+    "options": [
+      { "key": "A", "content": "① 第一颗人造地球卫星" },
+      { "key": "B", "content": "② 人类首次进入太空" },
+      { "key": "C", "content": "③ 人类首次登上月球" },
+      { "key": "D", "content": "④ 用显微镜观察细胞" }
+    ],
+    "correctKeys": ["D"],
+    "explanation": "解析：①②③均属于宏观的太空探索；④显微镜观察细胞属于生物微观领域的探索。",
+    "notes": []
+  },
+  {
+    "id": 2,
+    "chapterId": 10101,
+    "type": "single",
+    "content": "6. 太空探索使我们认识到（ ）",
+    "image": "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q5.png",
+    "options": [
+      { "key": "A", "content": "地球位于火星和木星之间" },
+      { "key": "B", "content": "地球与月球自然环境相似" },
+      { "key": "C", "content": "地球是目前已知唯一存在高级智慧生命的天体" },
+      { "key": "D", "content": "太阳系中距离太阳最近的行星是金星" }
+    ],
+    "correctKeys": ["C"],
+    "explanation": "解析：A错，地球位于金星和火星之间；B错，月球无大气无水；D错，最近的是水星。",
+    "notes": []
+  },
+  {
+    "id": 3,
+    "chapterId": 10101,
+    "type": "single",
+    "content": "7. 【读表题】我国太空探索用30年跨越了发达国家半个世纪的发展历程（见下图），这主要得益于（ ）",
+    "image": "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q7.png",
+    "options": [
+      { "key": "A", "content": "科学技术的进步" },
+      { "key": "B", "content": "生活水平的提高" },
+      { "key": "C", "content": "世界人口的增长" },
+      { "key": "D", "content: "国际组织的支持" }
+    ],
+    "correctKeys": ["A"],
+    "explanation": "解析：航天事业的发展主要依赖于国家综合国力的增强和科学技术的进步。",
+    "notes": []
+  },
+  {
+    "id": 4,
+    "chapterId": 10101,
+    "type": "single",
+    "content": "8. 我国积极开展太空探索的意义有（ ）\n①揭示宇宙的起源与演化\n②为人类和平利用太空贡献中国方案\n③开发地球资源为人类造福\n④探索生命起源及宇宙环境对地球的影响",
+    "image": "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q5.png",
+    "options": [
+      { "key": "A", "content": "①②③" },
+      { "key": "B", "content": "①②④" },
+      { "key": "C", "content": "①③④" },
+      { "key": "D", "content": "②③④" }
+    ],
+    "correctKeys": ["B"],
+    "explanation": "解析：太空探索是为了开发“太空资源”而非直接“开发地球资源”，排除③。故选①②④。",
+    "notes": []
+  },
+  {
     "id": 5,
     "chapterId": 10101,
     "type": "single",
@@ -656,246 +720,6 @@
     "notes": []
   },
   {
-    "id": 201,
-    "chapterId": 10101,
-    "type": "single",
-    "content": "1. (如图) 图中代表地球的是（ ）",
-    "image": "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q19.png",
-    "options": [
-      { "key": "A", "content": "①" },
-      { "key": "B", "content": "②" },
-      { "key": "C", "content": "③" },
-      { "key": "D", "content": "④" }
-    ],
-    "correctKeys": ["C"],
-    "explanation": "解析：太阳系八大行星由内向外依次是：水、金、地、火。③排第三，是地球。",
-    "notes": []
-  },
-  {
-    "id": 202,
-    "chapterId": 10101,
-    "type": "single",
-    "content": "2. 地球是迄今人类唯一的家园，是因为地球（ ）\n①距离太阳适中，有适合生命存在的温度\n②自身发光发热\n③自身体积质量不大不小，有适合呼吸的大气\n④有液态水的存在\n⑤有月球的环绕",
-    "image": "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q19.png",
-    "options": [
-      { "key": "A", "content": "①②③" },
-      { "key": "B", "content": "①③④" },
-      { "key": "C", "content": "②④⑤" },
-      { "key": "D", "content": "③④⑤" }
-    ],
-    "correctKeys": ["B"],
-    "explanation": "解析：地球不能发光发热（②错）；月球环绕不是生命存在的必要条件（⑤错）。",
-    "notes": []
-  },
-  {
-    "id": 203,
-    "chapterId": 10303,
-    "type": "single",
-    "content": "3. (如图) 2024年1月1日日本能登半岛发生地震。本次地震震中的经纬度位置是（ ）",
-    "image": "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q20.png",
-    "options": [
-      { "key": "A", "content": "37.5°S, 137.2°E" },
-      { "key": "B", "content": "37.5°S, 137.2°W" },
-      { "key": "C", "content": "37.5°N, 137.2°E" },
-      { "key": "D", "content": "37.5°N, 137.2°W" }
-    ],
-    "correctKeys": ["C"],
-    "explanation": "解析：日本位于北半球（北纬N）和东半球（东经E）。",
-    "notes": []
-  },
-  {
-    "id": 204,
-    "chapterId": 10303,
-    "type": "single",
-    "content": "4. (如图) 日本火山地震频繁，是因为日本位于（ ）",
-    "image": "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q20.png",
-    "options": [
-      { "key": "A", "content": "亚欧板块和印度洋板块交界处" },
-      { "key": "B", "content": "印度洋板块和非洲板块交界处" },
-      { "key": "C", "content": "亚欧板块和太平洋板块交界处" },
-      { "key": "D", "content: "太平洋板块和美洲板块交界处" }
-    ],
-    "correctKeys": ["C"],
-    "explanation": "解析：日本位于亚欧板块与太平洋板块的交界处，地壳活跃。",
-    "notes": []
-  },
-  {
-    "id": 205,
-    "chapterId": 10302,
-    "type": "single",
-    "content": "5. (如图) 大陆向海洋深处延伸，依次出现的海底地形为（ ）",
-    "image": "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q21.png",
-    "options": [
-      { "key": "A", "content": "大陆架—洋盆—大陆坡" },
-      { "key": "B", "content": "大陆架—大陆坡—洋盆" },
-      { "key": "C", "content": "大陆坡—大陆架—洋盆" },
-      { "key": "D", "content": "大陆坡—洋盆—大陆架" }
-    ],
-    "correctKeys": ["B"],
-    "explanation": "解析：从陆地向海洋延伸，依次是大陆架（浅海）、大陆坡（陡坡）、洋盆（深海平原）。",
-    "notes": []
-  },
-  {
-    "id": 206,
-    "chapterId": 10302,
-    "type": "single",
-    "content": "6. (如图) 海洋的最深处为（ ）",
-    "image": "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q21.png",
-    "options": [
-      { "key": "A", "content": "大陆坡" },
-      { "key": "B", "content": "洋盆" },
-      { "key": "C", "content": "洋中脊" },
-      { "key": "D", "content": "海沟" }
-    ],
-    "correctKeys": ["D"],
-    "explanation": "解析：海沟是海洋底部最深的地方。",
-    "notes": []
-  },
-  {
-    "id": 207,
-    "chapterId": 10301,
-    "type": "single",
-    "content": "7. (如图) 世界上的陆地主要集中分布在（ ）\n①北半球 ②南半球 ③东半球 ④西半球",
-    "image": "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q22.png",
-    "options": [
-      { "key": "A", "content": "①③" },
-      { "key": "B", "content": "②③" },
-      { "key": "C", "content": "①④" },
-      { "key": "D", "content": "③④" }
-    ],
-    "correctKeys": ["A"],
-    "explanation": "解析：陆地主要集中在北半球和东半球。",
-    "notes": []
-  },
-  {
-    "id": 208,
-    "chapterId": 10301,
-    "type": "single",
-    "content": "8. (如图) 图5中东西半球的划分经线是（ ）",
-    "image": "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q22.png",
-    "options": [
-      { "key": "A", "content": "0° 180°经线" },
-      { "key": "B", "content": "20°W 160°E" },
-      { "key": "C", "content": "20°E 160°W" },
-      { "key": "D", "content": "20°W 20°E" }
-    ],
-    "correctKeys": ["B"],
-    "explanation": "解析：东西半球分界线是 20°W 和 160°E 组成的经线圈。",
-    "notes": []
-  },
-  {
-    "id": 209,
-    "chapterId": 10401,
-    "type": "single",
-    "content": "9. (如图) 巴黎奥运会开幕式当天下了小雨。下列天气符号代表的天气最适合描述当天天气的是（ ）",
-    "image": "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q23.png",
-    "options": [
-      { "key": "A", "content": "图A" },
-      { "key": "B", "content": "图B" },
-      { "key": "C", "content": "图C" },
-      { "key": "D", "content": "图D" }
-    ],
-    "correctKeys": ["B"],
-    "explanation": "解析：A是雷阵雨，B是小雨/中雨（此处最符合小雨），C是雪，D是多云。",
-    "notes": []
-  },
-  {
-    "id": 210,
-    "chapterId": 10103,
-    "type": "single",
-    "content": "10. (如图) 巴黎奥运会期间(7月26日开始)，地球运动的位置是在（ ）",
-    "image": "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q24.png",
-    "options": [
-      { "key": "A", "content": "①" },
-      { "key": "B", "content": "②" },
-      { "key": "C", "content": "③" },
-      { "key": "D", "content": "④" }
-    ],
-    "correctKeys": ["C"],
-    "explanation": "解析：①是春分(3.21)，②是夏至(6.21)，③是秋分(9.23)，④是冬至(12.22)。7月26日位于夏至和秋分之间，即②和③之间。",
-    "notes": []
-  },
-  {
-    "id": 211,
-    "chapterId": 10103,
-    "type": "single",
-    "content": "11. (如图) 奥运会期间，巴黎(48°N)的昼夜变化规律是（ ）",
-    "image": "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q24.png",
-    "options": [
-      { "key": "A", "content": "昼夜等长" },
-      { "key": "B", "content": "白昼越来越长" },
-      { "key": "C", "content": "白昼越来越短" },
-      { "key": "D", "content": "出现极昼现象" }
-    ],
-    "correctKeys": ["C"],
-    "explanation": "解析：夏至日(6.21)北半球白昼最长。奥运会(7.26)在夏至之后，太阳直射点向南移动，北半球白昼逐渐变短。",
-    "notes": []
-  },
-  {
-    "id": 212,
-    "chapterId": 10501,
-    "type": "single",
-    "content": "12. (如图) 读部分大洲人口统计图，人口自然增长率最快的大洲是（ ）",
-    "image": "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q25.png",
-    "options": [
-      { "key": "A", "content": "非洲" },
-      { "key": "B", "content": "北美洲" },
-      { "key": "C", "content": "亚洲" },
-      { "key": "D", "content: "欧洲" }
-    ],
-    "correctKeys": ["A"],
-    "explanation": "解析：自然增长率 = 出生率 - 死亡率。图中非洲的柱状差值最大，增长最快。",
-    "notes": []
-  },
-  {
-    "id": 213,
-    "chapterId": 10501,
-    "type": "single",
-    "content": "13. (如图) 据图推测，欧洲面临的问题是（ ）",
-    "image": "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q25.png",
-    "options": [
-      { "key": "A", "content": "就业压力大" },
-      { "key": "B", "content": "生态环境破坏" },
-      { "key": "C", "content": "交通拥挤" },
-      { "key": "D", "content: "劳动力短缺" }
-    ],
-    "correctKeys": ["D"],
-    "explanation": "解析：图中欧洲死亡率高于出生率，人口负增长。这将导致人口老龄化、劳动力短缺等问题。",
-    "notes": []
-  },
-  {
-    "id": 214,
-    "chapterId": 10502,
-    "type": "single",
-    "content": "14. (如图) 图8的区域( )",
-    "image": "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q26.png",
-    "options": [
-      { "key": "A", "content": "保留了更多的自然风貌" },
-      { "key": "B", "content": "是城镇" },
-      { "key": "C", "content": "是乡村" },
-      { "key": "D", "content": "人们主要从事种植业" }
-    ],
-    "correctKeys": ["B"],
-    "explanation": "解析：图示为高楼大厦，建筑物密集，属于典型的城镇景观。",
-    "notes": []
-  },
-  {
-    "id": 215,
-    "chapterId": 10502,
-    "type": "single",
-    "content": "15. 由乡村到城镇，其变化是（ ）",
-    "image": "https://cdn.jsdelivr.net/gh/di-li17/geo-quiz-data@main/images/q26.png",
-    "options": [
-      { "key": "A", "content": "就业、学习机会减少" },
-      { "key": "B", "content": "范围越来越小" },
-      { "key": "C", "content": "配套服务越来越完善" },
-      { "key": "D", "content": "人口越来越少" }
-    ],
-    "correctKeys": ["C"],
-    "explanation": "解析：城镇化过程中，基础设施和配套服务会越来越完善，就业机会增多，人口密度增大。",
-    "notes": []
-  },
-  {
     "id": 301,
     "chapterId": 10101,
     "type": "single",
@@ -908,7 +732,7 @@
       { "key": "D", "content": "①②③④⑤" }
     ],
     "correctKeys": ["B"],
-    "explanation": "解析：地月系(②) < 太阳系(④) < 银河系(①) < 总星系(⑤)。题目要求从低到高，故顺序为地月系->太阳系->银河系。注：图中数字对应天体系统。",
+    "explanation": "解析：地月系(②) < 太阳系(④) < 银河系(①) < 总星系(⑤)。题目要求从低到高。",
     "notes": []
   },
   {
@@ -1068,7 +892,7 @@
       { "key": "D", "content": "臭氧层破坏" }
     ],
     "correctKeys": ["A"],
-    "explanation": "解析：对比充满二氧化碳和干洁空气的瓶子升温情况，模拟温室效应导致的全球变暖。",
+    "explanation": "解析：模拟温室效应导致的全球变暖。",
     "notes": []
   },
   {
@@ -1097,10 +921,10 @@
       { "key": "A", "content": "提倡步行、骑自行车" },
       { "key": "B", "content": "随手关灯，节约用电" },
       { "key": "C", "content": "赠送礼物时豪华包装" },
-      { "key": "D", "content: "拒绝使用一次性筷子" }
+      { "key": "D", "content": "拒绝使用一次性筷子" }
     ],
     "correctKeys": ["C"],
-    "explanation": "解析：豪华包装浪费资源，增加碳排放。",
+    "explanation": "解析：豪华包装浪费资源。",
     "notes": []
   },
   {
@@ -1116,7 +940,7 @@
       { "key": "D", "content": "④地区 (北美东部)" }
     ],
     "correctKeys": ["C"],
-    "explanation": "解析：③地区是亚洲东部，是黄色人种主要分布区。①④是白种人，②是白种人和黑种人混杂。",
+    "explanation": "解析：③地区是亚洲东部，是黄色人种主要分布区。",
     "notes": []
   },
   {
